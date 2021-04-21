@@ -1,0 +1,344 @@
+/*typography*/
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+p{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none !important;
+}
+h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px !important;
+    line-height: 75px !important;
+}
+h2{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 55px !important;
+line-height: 45px !important;   
+}
+h3{
+    font-family: Lato;
+font-style: normal;
+font-size: 40px !important;
+line-height: 51px !important;
+}
+h4{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 34px !important;
+line-height: 45px !important;
+letter-spacing: -0.1px !important;
+}
+h5{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 45px;
+
+letter-spacing: -0.1px;
+
+}
+h6{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 8px !important;  
+}
+.btn-1{
+    background: #00C3FF;
+box-shadow: 0px 4px 20px -6px rgba(76, 217, 237, 0.4);
+border-radius: 6px;
+padding: 10px 20px;
+color: #fff;
+}
+.btn-1:hover{
+color: #fff !important;
+}
+.btn-3{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+color: #0160E7;
+}
+.p-100{
+    padding: 100px 0;
+}
+.heading-4{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #343C51;
+}
+
+
+
+/*navigation*/
+.navbar-brand img{
+    width: 112px;
+    max-height: 63px;
+}
+.nav-link{
+    font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: -0.5px;
+text-align: center;
+color: #343C51 !important;
+}
+.nav-item.active{
+    border-bottom: 3px solid #0160E7;
+}
+.dropdown-menu{
+    background: #FFFFFF;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+
+
+}
+.navigation-bar{
+    background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+height: 100px;
+}
+.dropdown-item{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: -0.5px;
+color: #000000;
+border: none;
+padding: 10px 45px 10px 15px !important;
+}
+.dropdown-item span{
+    margin-right: 10px;
+}
+/*Header-area*/
+.header-area{
+    background-image: url('/3insys/content/images/Header/header-bg-image1.png');
+     background-position: center top;
+      background-size: cover;
+      margin-bottom: 70px;
+}
+.header-content{
+    text-align:center;
+    margin-top: 70px;
+}
+.header-content span{
+    font-weight: 700;
+}
+/*system-data-content*/
+.heading3{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+}
+.heading3 span{
+    font-weight: 700;
+}
+.system-data .heading3{
+margin-bottom: 25px;
+}
+.system-data-content{
+    margin-bottom: 70px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.system-data-content span{
+    font-weight: bold;
+}
+.XSI:hover .XSI-img{
+display: none;
+transition: 2s;
+}
+.XSI:hover .XSI-img-blue{
+    display: block;
+}
+.XSI-img-blue{
+    display: none;
+    transform: translateY(-70px);
+}
+.system-data-header{
+    margin-bottom: 100px;
+}
+/*Integrated-Products*/
+.Integrated-Products{
+    background:  url(/3insys/content/images/Section2/Section-2-bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.heading1 h2{
+    color: #437FEC;
+    font-weight: 700;
+}
+.Integrated-Products h4{
+    font-weight: 700;
+}
+.xsi-img{
+    max-width: 546px;
+}
+
+
+
+/*digital-evolution*/
+.digital-evolution{
+    padding: 75px 0;
+}
+.digital-evolution  h4{
+    font-weight: 700;
+    font-size:40px;
+    text-transform: uppercase;
+}
+.digital-evolution .partner-header{
+    font-size: 24px !important;
+    color: #437FEC;
+    font-weight: 700;
+ 
+}
+
+/*brand carousal*/
+.section-padding{
+  padding:60px 0;
+}
+
+.owl-dots{
+  text-align: center;
+}
+
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #222222 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.owl-dot.active {
+  background-color: #FF170F !important;
+}
+.owl-carousel .owl-item img {
+  padding: 0 20px;
+    height: 60px;
+    filter: grayscale();
+}
+.owl-carousel .owl-item .single-logo:hover img{
+    filter: none;
+}
+
+
+/*footer*/
+.footer{
+    background: url(/3insys/content/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.footer h4{
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.footer-heading{
+    margin-bottom: 140px;
+}
+.footer-item h6,.footer-item2 h6{
+    margin-bottom: 40px;
+}
+.footer-item ul li a{
+    font-weight: 300;
+font-size: 15px;
+line-height: 8px;
+color: #343C51;
+}
+.footer-item input{
+    margin-bottom: 20px;
+    background: #FFFFFF;
+border: 1px solid #D8D8D8;
+box-sizing: border-box;
+border-radius: 5px;
+height: 40px;
+width: 250px;
+}
+.footer hr{
+    border: 0.75px solid #9DAFBD;
+background: #9DAFBD ;
+width: 100%;
+opacity: 0.8;
+}
+.footer-item2 ul li{
+    font-size: 12px;
+line-height: 18px;
+color: #343C51;
+}
+
+.social-icon li{
+    display: inline-block;
+    padding: 0  12px;
+}
+
+
+/*Integration-Advances*/
+.Integration-Advances{
+    background: url(/3insys/content/images/Section3/section3-bg-image.png);
+    background-repeat: no-repeat;
+    background-size: unset;
+    padding: 100px 0;
+    background-position: bottom;
+}
+
+.icon-name{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 26px;
+text-align: center;
+letter-spacing: -0.5px;
+color: #343C51;
+margin-top: 25px;
+}
