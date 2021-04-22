@@ -7,6 +7,7 @@
 body{
     background: #fff;
     font-family: 'Lato', sans-serif !important;
+    color: #343C51 !important;
 }
 p{
     font-family: Lato;
@@ -154,7 +155,7 @@ padding: 10px 45px 10px 15px !important;
 }
 /*Header-area*/
 .header-area{
-    background-image: url('/3insys/content/images/Header/header-bg-image1.png');
+    background-image: url('../images/Header/header-bg-image1.png');
      background-position: center top;
       background-size: cover;
       margin-bottom: 70px;
@@ -206,7 +207,7 @@ transition: 2s;
 }
 /*Integrated-Products*/
 .Integrated-Products{
-    background:  url(/3insys/content/images/Section2/Section-2-bg-image.png);
+    background:  url(../images/Section2/Section-2-bg-image.png);
     background-position: center;
     background-repeat: no-repeat;
 
@@ -274,7 +275,7 @@ transition: 2s;
 
 /*footer*/
 .footer{
-    background: url(/3insys/content/images/footer-bg.png);
+    background: url(../images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
@@ -324,7 +325,7 @@ color: #343C51;
 
 /*Integration-Advances*/
 .Integration-Advances{
-    background: url(/3insys/content/images/Section3/section3-bg-image.png);
+    background: url(../images/Section3/section3-bg-image.png);
     background-repeat: no-repeat;
     background-size: unset;
     padding: 100px 0;
