@@ -29,11 +29,12 @@ a:hover{
 }
 ul{
     list-style: none !important;
+    margin: 0 !important;
 }
 h1{
     font-family: Lato;
     font-style: normal;
-    font-weight: bold;
+    
     font-size: 50px !important;
     line-height: 75px !important;
 }
@@ -124,9 +125,13 @@ line-height: 19px;
 letter-spacing: -0.5px;
 text-align: center;
 color: #343C51 !important;
+padding: 35px 10px 35px 10px !important;
 }
-.nav-item.active{
+.nav-link.active{
     border-bottom: 3px solid #0160E7;
+}
+.navbar{
+    padding-bottom: 0 !important;
 }
 .dropdown-menu{
     background: #FFFFFF;
@@ -153,6 +158,17 @@ padding: 10px 45px 10px 15px !important;
 .dropdown-item span{
     margin-right: 10px;
 }
+.fixed-top{
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 30px !important;
+    padding-left: 0.5rem;
+   
+}
+}
 /*Header-area*/
 .header-area{
     background-image: url('../images/Header/header-bg-image1.png');
@@ -163,6 +179,7 @@ padding: 10px 45px 10px 15px !important;
 .header-content{
     text-align:center;
     margin-top: 70px;
+    font-weight: 400;
 }
 .header-content span{
     font-weight: 700;
@@ -278,7 +295,7 @@ transition: 2s;
     background: url(../images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 160px 0 110px 0;
 }
 .footer h4{
     font-weight: bold;
@@ -316,7 +333,9 @@ opacity: 0.8;
 line-height: 18px;
 color: #343C51;
 }
-
+.social-icon{
+    margin-bottom: 50px;
+}
 .social-icon li{
     display: inline-block;
     padding: 0  12px;
