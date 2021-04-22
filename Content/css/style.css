@@ -29,12 +29,11 @@ a:hover{
 }
 ul{
     list-style: none !important;
-    margin: 0 !important;
+   
 }
 h1{
     font-family: Lato;
     font-style: normal;
-    
     font-size: 50px !important;
     line-height: 75px !important;
 }
@@ -63,18 +62,16 @@ h5{
     font-family: Lato;
 font-style: normal;
 font-weight: bold;
-font-size: 34px;
+font-size: 24px;
 line-height: 45px;
-
 letter-spacing: -0.1px;
-
 }
 h6{
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 18px !important;
-    line-height: 8px !important;  
+    
 }
 .btn-1{
     background: #00C3FF;
@@ -95,6 +92,13 @@ line-height: 24px;
 text-align: center;
 text-decoration-line: underline;
 color: #0160E7;
+}
+.btn-2{
+    background: #00C3FF;
+box-shadow: 0px 8px 8px rgba(0, 195, 255, 0.25);
+border-radius: 5px;
+padding: 15px 25px;
+color: #fff;
 }
 .p-100{
     padding: 100px 0;
@@ -364,84 +368,84 @@ margin-top: 25px;
 }
 
 
+/*xsi-products*/
 
-
-
-
-
-
-/*Integration page start*/
-.integraton-bg{
-    background-image: none;
-    background-position: initial;
-    background-size: initial;
-    margin-bottom: 70px;
-    position: relative;
+.bullets{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #343C51;
 }
-.integraton-bg h1{
-    font-size:36px !important;
-}
-
-
-.integraton-bg:after {
+.bullets::before{
     position: absolute;
-    content: "";
-    background: url(../images/Integration-page/Header/bg-top-element.png) no-repeat;
-    width: 100%;
-    height: 380px;
-    background-size: 12%;
-    left: 0;
-    bottom: 50%;
+    content: url(../images/bullets.png);
+    transform: translateX(-18px);
+}
+.xsi-header-area{
+    background-image: url('../images/xsi/header-bg-image.svg');
+    background-position: center top;
+     background-size: cover;
+     margin-bottom: 70px;
+     padding: 100px 0;
+}
+.important-integration-title{
+    font-weight: bold;
+font-size: 30px;
+
+color: #343C51;
+margin-bottom: 30px;
+}
+.important-integration p{
+    margin-bottom: 22px;
+}
+.important-integration-content{
+    padding-left:30px ;
+}
+.cross-system-title{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 60px;
+color: #437FEC;
+margin-bottom: 20px;
+}
+.section-2{
+    padding: 100px 0;
+}
+.system-integration-card{
+    background: #EFF1FE;
+box-shadow: 0px 4px 15px 4px rgba(190, 198, 237, 0.5);
+border-radius: 21px;
+padding: 50px 150px;
+width: 100%;}
+.system-integration-card p{
+    font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #343C51;
+margin-bottom: 40px;
+}
+.system-integration-card p span{
+    font-weight: bold;
+}
+.system-integration-card h6{
+    font-size: 22px;
+    text-align: center;
+}
+/*xdi-products*/
+
+.xdi-header-area{
+    background-image: url('../images/XDI/XDI-header-bg.svg');
+    background-position: center top;
+     background-size: cover;
+     margin-bottom: 70px;
+     padding: 100px 0;
 }
 
-.cross-head p{
-    font-size:24px;
-    line-height: 55px;
-    font-weight: 400;
-    color: #437FEC;
-}
-.bullet-cross::before{
-    content: "";
-    width: 15px;
-    height: 15px;
-    transform: rotate(-45deg);
-    background-color: #437FEC;
-    position: absolute;
-    left: 0;
-    top: 30%;
-}
-.integraton-bg hr{
-    width: 90%;
-    margin: auto;
-}
-.integration-feature h3{
-    font-size: 24px !important;
-  
-    font-weight: 600;
-}
 
-.flow-curve::after {
-    position: absolute;
-    content: "";
-    background: url(../images/Integration-page/Section1/arrow2.svg) no-repeat;
-    width: 100%;
-    height: 300px;
-    background-size: auto;
-    left: -1%;
- 
-    bottom: 10%;
-    background-position: center;
-    z-index: -1;
-}
 
-.importance-integration{
-    background: #F8F9FD;
-    padding: 50px 0;
-}
-.importance-integration h4 {
-    font-weight: 700;
-    font-size: 36px !important;
-    line-height: 80px !important;
-    text-transform: capitalize;
+/*xsm-products*/
 
-}

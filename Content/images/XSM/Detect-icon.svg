@@ -1,0 +1,22 @@
+<svg width="117" height="114" viewBox="0 0 117 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 18.8157C7 10.5314 13.7157 3.81567 22 3.81567H95C103.284 3.81567 110 10.5314 110 18.8157V87.8157C110 96.0999 103.284 102.816 95 102.816H22C13.7157 102.816 7 96.0999 7 87.8157V18.8157Z" fill="white"/>
+</g>
+<g clip-path="url(#clip0)">
+<path d="M52.1189 25.8157C63.7642 25.8157 73.2379 35.2894 73.2379 46.9336C73.2379 52.0177 71.4413 56.8107 68.2048 60.6181L71.5376 63.9519L72.7395 62.7489C73.4033 62.0862 74.4795 62.0862 75.1422 62.7489L88.5026 76.1093C89.1652 76.772 89.1664 77.8482 88.5026 78.512L83.696 83.3186C83.0322 83.9813 81.9572 83.9824 81.2933 83.3186L67.9341 69.9581C67.2702 69.2954 67.2702 68.2193 67.9341 67.5554L69.1349 66.3546L65.8021 63.0208C61.9857 66.2651 57.1894 68.0539 52.1189 68.0539C40.4736 68.0539 30.9999 58.5801 30.9999 46.9336C30.9999 35.2894 40.4736 25.8157 52.1189 25.8157ZM52.1189 36.011C58.142 36.011 63.0426 40.9116 63.0426 46.9348C63.0426 47.8727 63.8038 48.634 64.7418 48.634C65.6809 48.634 66.441 47.8727 66.441 46.9348C66.441 39.0379 60.0157 32.6126 52.1189 32.6126C51.1809 32.6126 50.4197 33.3738 50.4197 34.3118C50.4197 35.2498 51.1809 36.011 52.1189 36.011Z" fill="#437FEC"/>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0.815674" width="117" height="113" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="3.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.717647 0 0 0 0 0.752941 0 0 0 0 0.921569 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="58" height="58.0002" fill="white" transform="matrix(-1 0 0 1 89 25.8157)"/>
+</clipPath>
+</defs>
+</svg>
