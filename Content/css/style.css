@@ -55,7 +55,7 @@ h4{
 font-style: normal;
 font-weight: bold;
 font-size: 34px !important;
-line-height: 45px !important;
+line-height: 45px;
 letter-spacing: -0.1px !important;
 }
 h5{
@@ -100,7 +100,7 @@ color: #0160E7;
     background: #00C3FF;
 box-shadow: 0px 8px 8px rgba(0, 195, 255, 0.25);
 border-radius: 5px;
-padding: 15px 25px;
+padding: 15px 45px;
 color: #fff;
 }
 .btn-4{
@@ -358,6 +358,9 @@ color: #343C51;
     display: inline-block;
     padding: 0  12px;
 }
+.footer-item ul{
+    margin-bottom: 0;
+}
 
 
 /*Integration-Advances*/
@@ -590,11 +593,44 @@ color: #343C51;
     background-image: url('../images/XDI/XDI-header-bg.svg');
     background-position: center top;
      background-size: cover;
-     margin-bottom: 70px;
      padding: 100px 0;
 }
+.Importance-of-Integration{
+    padding: 80px 0;
+}
+.Importance-of-Integration h3{
+    font-weight: bold;
+}
 
+.dm-title{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 51px;
+color: #437FEC;
+}
+.semi-title{
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #343C51;
+}
+.Centralized-Data-Storage{
+    padding: 80px 0;
+}
+.Centralized-Data-Storage p{
+    font-size: 18px;
+}
+.Centralized-card{
+    background: #EFF1FE;
+    box-shadow: 0px 4px 14px #E6EAFE;
+    border-radius: 6px;
+    padding:35px;
+    text-align: center;
+    height: 380px;
 
-
+}
 /*xsm-products*/
 
