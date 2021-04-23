@@ -493,7 +493,7 @@ color: #343C51;
      padding: 100px 0;
 }
 .important-integration-title{
-    font-weight: bold;
+   
 font-size: 30px;
 
 color: #343C51;
@@ -633,4 +633,67 @@ color: #437FEC;
 
 }
 /*xsm-products*/
+.xsm-section-1{
+    padding: 100px 0 0 0;
+}
+.Security-Integration-Made-Easy p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.XSM-Key-card{
+    display: flex;
+    height: 152px;
+   
+padding: 35px;
+margin-bottom: 20px;
+}
+.XSM-Key-card p{
+font-size: 18px;
+color: #343C51;
+}
+.Key-card-title{
+    font-weight: bold;
+font-size: 28px;
+line-height: 35px;
+color: #343C51;
+}
+.XSM-Key-card img{
+    width: 85px;
+    height: 85px;
+    margin-right: 30px;
+}
+.keyfeature-detail-card{
+    padding: 30px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px #EFF1FE;
+border-radius: 12px;
+}
+.single-keyfeature{
+    margin-bottom: 22px;
+}
+.single-keyfeature h5{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #437FEC;
+}
+.XSM-Key-Features .nav-link{
+    padding: 0 !important;
+    border: none !important;
+}
+.XSM-Key-Features .nav{
+    display: block !important;
+} 
+.XSM-Key-Features .nav-tabs {
+    border: none !important;
+} 
+.XSM-Key-Features .nav-link.active .XSM-Key-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #EFF1FE;
+    border-radius: 12px;
+}
 
