@@ -662,6 +662,7 @@ color: #343C51;
     width: 85px;
     height: 85px;
     margin-right: 30px;
+    filter: grayscale();
 }
 .keyfeature-detail-card{
     padding: 30px;
@@ -696,4 +697,6 @@ border-radius: 12px;
     box-shadow: 0px 4px 4px #EFF1FE;
     border-radius: 12px;
 }
-
+.XSM-Key-Features .nav-link.active .XSM-Key-card img{
+    filter: grayscale(0);
+}
