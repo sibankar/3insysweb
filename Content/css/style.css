@@ -700,3 +700,67 @@ border-radius: 12px;
 .XSM-Key-Features .nav-link.active .XSM-Key-card img{
     filter: grayscale(0);
 }
+
+
+
+
+
+
+/*about*/
+.about-header-area{
+    padding:80px 0 40px 0;    
+
+}
+.We-Are-3Insys p{
+    font-size: 18px;
+}
+.our-vision-card{
+    background: #EDF3FC;
+border-radius: 28px;
+padding: 40px 20px;
+    text-align: center;
+    height: 480px;
+}
+.our-vision-card p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.Building-Blocks{
+    padding: 40px 0;
+}
+.Building-Blocks h3{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: -0.1px;
+    margin-bottom: 30px;
+}
+.Building-Blocks p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.Building-Blocks img{
+    margin-left: auto;
+}
+.our-team{
+    padding: 80px 0;
+    background: #F6F8FE;
+}
+.our-team h4{
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.our-team img{
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+    margin:0 auto 20px;
+}
+.our-team p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.our-team span{
+    font-size: 18px;
+    color: #00C3FF;
+}
