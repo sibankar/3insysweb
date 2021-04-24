@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3INSYSWEB</title>
     
-    <link rel="stylesheet" href="content/css/bootstrap.css">
-    <link rel="stylesheet" href="content/css/owl.carousel.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="content/css/owl.carousel.css">
+    <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com">
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-    <link rel="stylesheet" href="content/css/style.css">
+    <link rel="stylesheet" type="text/css" href="content/css/style.css">
 </head>
 <body>
 
@@ -244,6 +244,38 @@
 <img src="content/images/xsi/flow-mx.gif" alt="" class="img-fluid">
             </div>
         </div>
+        <div class="row"><div class="col-12"><div class="more-it-features-title">More IT Integration Features</div></div></div>
+        <div class="row">
+            <div class="col-lg-6">
+                
+  <div class="acc-container">
+
+    <button class="acc-btn">What is the definition of a will?</button>
+    <div class="acc-content">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae suscipit fugiat beatae ipsam omnis eaque alias? Quibusdam vero explicabo deserunt.
+      </p>
+    </div>
+ 
+  </div>
+            </div>
+            
+            
+            <div class="col-lg-6">
+                <div class="acc-container">
+                    <button class="acc-btn">
+                        Where does a tree store it's stuff?
+                      </button>
+                      <div class="acc-content">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae suscipit fugiat beatae ipsam omnis eaque alias? Quibusdam vero explicabo deserunt.
+                        </p>
+                      </div>
+                  
+                      
+                </div>
+            </div>
+        </div>
         <div class="row">
             <hr class="my-5">
             <div class="key-features-title">OT Device Integration - Key Features</div>
@@ -296,7 +328,7 @@
         <p>The Cross System Integrator supports holistic and out-of-the-box integrations for new and legacy applications, APIs, web services, processes, events, and data through a library of pre-built connectors, adapters, and workflow capsules.</p>
         <p> XSI imparts solution-wide agility and scalability for applications and services that can be deployed in physical, virtualized, or containerized environments.</p>
         </div>
-        <img src="content/images/xsi/puzzle-image.svg" alt="">
+        <img src="content/images/xsi/puzzle-image.svg" class="img-fluid" alt="">
         
     </div>
 </div>
@@ -306,7 +338,64 @@
 
 
 
-
+<section class="cross-system-integrator">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 ml-auto">
+                <div class="card-security">
+                    <div class="row">
+                        <div class="col-12"><h3 class="cross-system-heading">Cross Security Manager</h3></div>
+                    </div>
+                    <div class="row text-center horizental-divider">
+                        <div class="col-md-6">
+                            <div class="cross-system-content-card">
+                                <img src="Content/images/xsi/Process-Automation.svg" >
+                                <h3>Process Automation</h3>
+                                <p> leverages advancements inrobotics toautomate business processes without complexity</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6"> <div class="cross-system-content-card">
+                                <img src="Content/images/xsi/Process-Automation.svg" >
+                                <h3>Process Automation</h3>
+                                <p> leverages advancements inrobotics toautomate business processes without complexity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 text-center vertical-divider">
+                        <div class="col-md-6"> <div class="cross-system-content-card">
+                                <img src="Content/images/xsi/Process-Automation.svg" >
+                                <h3>Process Automation</h3>
+                                <p> leverages advancements inrobotics toautomate business processes without complexity</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6"> <div class="cross-system-content-card">
+                                <img src="Content/images/xsi/Process-Automation.svg" >
+                                <h3>Process Automation</h3>
+                                <p> leverages advancements inrobotics toautomate business processes without complexity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cross-security-content-card">
+                    <h3>Cross Security Manager</h3>
+                    <img src="Content/images/xsi/Process-Automation.svg" >
+                    
+                    <p>Unify Security</p>
+                    <a href="" class="btn-3">[XSM]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-3"></span></a> 
+                </div>
+                <div class="cross-security-content-card">
+                    <h3>Cross Security Manager</h3>
+                    <img src="Content/images/xsi/Process-Automation.svg" >
+                    
+                    <p>Unify Security</p>
+                    <a href="" class="btn-3">[XSM]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-3"></span></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -438,5 +527,34 @@
     <script src="content/js/bootstrap.js"></script>
     <script src="content/js/owl.carousel.js"></script>
     <script src="content/js/main.js"></script>
+    <script>
+        const btns = document.querySelectorAll(".acc-btn");
+
+// fn
+function accordion() {
+  // this = the btn | icon & bg changed
+  this.classList.toggle("is-open");
+
+  // the acc-content
+  const content = this.nextElementSibling;
+
+  // IF open, close | else open
+  if (content.style.maxHeight) content.style.maxHeight = null;
+  else content.style.maxHeight = content.scrollHeight + "px";
+}
+
+// event
+btns.forEach((el) => el.addEventListener("click", accordion));
+
+/*
+   
+       Jokes are from > 
+        https://chartcons.com/100-funny-trick-questions-answers/
+        Background image from > 
+        https://www.magicpattern.design/tools/css-backgrounds
+   
+*/
+
+    </script>
     </body>
     </html>
