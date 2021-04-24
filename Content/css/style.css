@@ -597,7 +597,7 @@ margin-bottom: 20px;
     transform: translate(-30px ,4px);
 }
 .Advanced-Capabilities{
-    background-color: #F7F9FE, 100%;
+    background-color: #F7F9FE;
     padding: 60px 0;
 }
 .Advanced-Capabilities h4{
@@ -1003,9 +1003,6 @@ color: #343C51;
     padding: 30px;
 }
 
-.cross-system-content-card {
-    
-}
 .cross-system-content-card img, .cross-security-content-card img{
     max-width:100px;
 }
@@ -1076,8 +1073,20 @@ color: #343C51;
     z-index: 1;
 
 }
-
-
+.cross-system-integrator{
+    padding: 100px 0;
+}
+.cross-system-integrator h4{
+    font-weight: bold;
+font-size: 34px;
+line-height: 80px;
+}
+.heading-text{
+    font-size: 18px;
+line-height: 27px;  
+color: #343C51;
+margin-bottom: 60px;
+}
 .cross-system-integrator .cross-security-content-card:first-child::after{
     content: url(../images/xsi/Group430.svg);
     top: 43.5%;
@@ -1093,3 +1102,97 @@ color: #343C51;
     z-index: 1;
     left: -11%;
 }
+
+
+/*Other-Related-Positions*/
+.Other-Related-Positions{
+    padding: 80px 0 100px;
+}
+.Other-Related-Positions h4{
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+color: #343C51;
+margin-bottom: 40px;
+}
+.backtoposition{
+    font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #0160E7;
+float: right;
+}
+.backtoposition span{
+    margin-right: 10px;
+}
+.otherposition-card{
+    background: #FFFFFF;
+border: 1px solid #E6EAFE;
+box-sizing: border-box;
+box-shadow: 0px 4px 14px 8px #F1F3FB;
+padding: 35px 25px;
+
+}
+.otherposition-card h6{
+    font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #343C51;
+margin-bottom: 20px;
+}
+.otherposition-card p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #343C51;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.otherposition-card a{
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00C3FF;
+    font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+/*policy*/
+.policy-header{
+    padding: 70px 0;
+}
+.policy-header h4{
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #343C51; 
+}
+.policy-header p{
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 28px;
+color: #979797;
+}
+.policy-detail{
+   padding: 60px 0;
+   background: #F3F7FD;
+}
+.policy-description h6{
+    font-weight: bold;
+font-size: 16px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #343C51;
+}
+.policy-detail p{
+font-size: 16px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #343C51;
+margin-bottom: 0;
+}
+.policy-description{
+    margin-bottom: 40px;
+}
+
