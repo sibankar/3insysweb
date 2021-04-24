@@ -1,3 +1,9 @@
-<svg width="1919" height="5147" viewBox="0 0 1919 5147" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="-1" width="1920" height="5147" fill="#F8F9FD"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="5147" viewBox="0 0 1920 5147">
+  <g id="Group_1" data-name="Group 1" transform="translate(-537 -187)">
+    <rect id="color-bg" width="1920" height="5147" transform="translate(537 187)" fill="#f8f9fd"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(537 187)" fill="#fff" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="1920" height="638" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="637" fill="none"/>
+    </g>
+  </g>
 </svg>

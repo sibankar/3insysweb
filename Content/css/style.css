@@ -528,6 +528,8 @@ margin-bottom: 20px;
 .section-2{
     padding: 100px 0;
     background: url(../images/color-bg.svg);
+    background-position: bottom;
+    position: relative;
     
 }
 .section-2::after{
@@ -536,7 +538,7 @@ margin-bottom: 20px;
     background: no-repeat;
     right: 0;
     transform: rotate(180deg);
-    top: 150%;
+    top: 12%;
 
    
 }
@@ -548,6 +550,7 @@ padding: 50px 150px;
 width: 90%;
 margin:auto;
 margin-bottom: 80px;
+z-index: 2;
 }
 .system-integration-card p{
     font-size: 18px;
@@ -906,7 +909,7 @@ color: #343C51;
 
 }
 .ot-device::after{
-    content: url(../images/Vector53.svg);
+    content: url(../images/xsi/Group491.svg);
     position: absolute;
     right: -15%;
     top: 60%;
@@ -1062,4 +1065,31 @@ color: #343C51;
     color: #979797;
     font-size: 18px !important;
 
+}
+
+.card-security::after{
+
+    content: url(../images/xsi/Group430.svg);
+    top: 20%;
+    position: absolute;
+    right: -6.5%;
+    z-index: 1;
+
+}
+
+
+.cross-system-integrator .cross-security-content-card:first-child::after{
+    content: url(../images/xsi/Group430.svg);
+    top: 43.5%;
+    position: absolute;
+    right: 45%;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+.cross-system-integrator .cross-security-content-card:last-child::after{
+    content: url(../images/xsi/Group430.svg);
+    top: 70%;
+    position: absolute;
+    z-index: 1;
+    left: -11%;
 }
