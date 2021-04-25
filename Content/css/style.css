@@ -1195,4 +1195,83 @@ margin-bottom: 0;
 .policy-description{
     margin-bottom: 40px;
 }
+/*Faq*/
+.faq-seclect-tab{
+background:#EFF1FE;
+padding: 80px 0;
+}
+.faq-seclect-tab h1{
+    text-align: center;
+}
+
+.faq-seclect-tab .faq-toggle-card{
+    background: white;
+    border-radius: 6px;
+    padding: 15px 20px;
+}
+.faq-seclect-tab .faq-toggle-card a{
+   cursor: pointer;
+    color: black;
+    padding-left: 20px;
+   
+}
+
+.tab-content{
+    display: none;
+
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+.acc-btn1:focus, .acc-btn1:hover{
+    outline:none;
+    color:  #437FEC !important;
+    text-decoration: underline;
+}
+.acc-btn1 {
+    width: 100%;
+    padding: 40px 30px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.3s linear;
+    font-size: 20px;
+}
+.acc-btn1:before {
+    content: url(../images/Polygon1.svg);
+    padding-right: 40px;
+    transition: all 0.3s linear;
+}
+
+.acc-btn1.is-open:after {
+    transform: rotate(180deg);
+}
+
+.acc-content1 {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 16px;
+    padding-left: 5rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1.5px solid #B7C0EB;
+}
+
+.tab-link.current{
+    box-shadow: 0px 2px 4px 0px #E4E7FB;
+    border: 1px solid #B7C0EB;
+    box-sizing: border-box;
+    
+}
+
+.tab-link.current .faq-toggle-card a{
+    color: #437FEC !important;
+
+
+}
 
