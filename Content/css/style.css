@@ -1414,3 +1414,66 @@ padding: 80px 0;
 .select-postion{
     position: relative;
 }
+
+
+/*File upload*/
+.et_pb_contact_form_label {
+	display: block;
+	color: black;
+	font-weight: bold;
+  letter-spacing: 1.2px;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+input[id="et_pb_contact_brand_file_request_0"] {
+	display: none;
+}
+label[for="et_pb_contact_brand_file_request_0"] {
+    background: #f8f9fd;
+    background-image: url(../images/attachment.svg);
+    background-repeat: no-repeat;
+    background-position: top 6px left 15px;
+    background-size: 10%;
+    color: transparent;
+    width: 20%;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    height: 38px;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-top: 5px;
+    
+}
+
+label[for="et_pb_contact_brand_request_0"]:after {
+	content: " (Provide link or Upload files if you already have guidelines)";
+	font-size: 12px;
+	letter-spacing: -0.31px;
+	color: #7a7a7a;
+	font-weight: normal;
+}
+label[for="et_pb_contact_design_request_0"]:after {
+	content: " (Provide link or Upload design files)";
+	font-size: 12px;
+	letter-spacing: -0.31px;
+	color: #7a7a7a;
+	font-weight: normal;
+}
+label[for="et_pb_contact_brand_file_request_0"].changed, label[for="et_pb_contact_brand_file_request_0"]:hover {
+  background-color: #e3f2fd;
+}
+label[for="et_pb_contact_brand_file_request_0"] {
+  cursor: pointer;
+  transition: 400ms ease;
+}
+.file_names {
+    display: block;
+    position: absolute;
+    color: #343C51;
+    left: 0;
+    bottom: 25%;
+    font-size: 16px;
+    font-weight: 500;
+    right: 40%;
+    text-align: center;
+}
