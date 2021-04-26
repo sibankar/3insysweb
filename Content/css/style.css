@@ -1585,3 +1585,59 @@ color: #437FEC;
 
 }
 
+/*sibankar integration*/
+.integration-card{
+    padding: 80px 50px;
+    height: 580px;
+}
+.integration-card .card-icon{
+height: 70px;
+width: 70px;
+margin-bottom: 35px;
+}
+.integration-card h6{
+    font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.01em;
+margin-bottom: 10px;
+}
+.integration-card ul li span{
+    margin-right: 10px;
+}
+.integration-card ul li{
+    padding: 5px 0;
+    font-size: 14px;
+line-height: 35px;
+}
+.integration-card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+}
+.devops{
+    padding: 50px 0 150px 0;
+}
+.devops h4{
+    font-weight: bold;
+font-size: 36px;
+line-height: 80px;
+letter-spacing: -0.015em;
+}
+.devops h5{
+    font-weight: bold;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: -0.015em;
+}
+.devops ul li{
+    font-size: 20px;
+line-height: 151%;
+letter-spacing: -0.015em;
+
+}
+.devops p{
+    font-size: 18px;
+line-height: 151%;
+letter-spacing: -0.015em;
+}
