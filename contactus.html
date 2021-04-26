@@ -167,27 +167,27 @@
                             <div class="checkbox-card">
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <input type="checkbox" id="product_technical_info">
+                                        <input type="checkbox" id="product_technical_info" name="main-prod" onchange="checkProductIterestInfo();">
                                         <label for="product_technical_info">Product / Technical Info</label>
                                         <div class="pl-4 mt-2">
-                                            <input type="radio" id="cross_system_integrator" name="product-info" value="Cross System Integrator">
+                                            <input type="radio" id="cross_system_integrator" name="product-info" value="Cross System Integrator" disabled>
                                             <label for="cross_system_integrator">Cross System Integrator</label><br>
-                                            <input type="radio" id="cross_data_ntegrator" name="product-info" value="Cross Data Integrator">
+                                            <input type="radio" id="cross_data_ntegrator" name="product-info" value="Cross Data Integrator" disabled>
                                             <label for="cross_data_ntegrator">Cross Data Integrator</label><br>
-                                            <input type="radio" id="cross_security_manager" name="product-info" value="Cross Security Manager">
+                                            <input type="radio" id="cross_security_manager" name="product-info" value="Cross Security Manager" disabled>
                                             <label for="cross_security_manager">Cross Security Manager</label>
                                         </div>
                                     </div>
                                     <div class="col-md-5">
-                                        <input type="checkbox" id="product_technical_info">
-                                        <label for="product_technical_info">Demo Request</label>
+                                        <input type="checkbox" id="demo_req_info"  name="main-prod" onchange="checkProductIterestInfo1();">
+                                        <label for="demo_req_info">Demo Request</label>
                                         <div class="pl-4 mt-2">
-                                            <input type="radio" id="cross_system_integrator" name="product-info" value="Cross System Integrator">
-                                            <label for="cross_system_integrator">Cross System Integrator</label><br>
-                                            <input type="radio" id="cross_data_ntegrator" name="product-info" value="Cross Data Integrator">
-                                            <label for="cross_data_ntegrator">Cross Data Integrator</label><br>
-                                            <input type="radio" id="cross_security_manager" name="product-info" value="Cross Security Manager">
-                                            <label for="cross_security_manager">Cross Security Manager</label>
+                                            <input type="radio" id="cross_system_integrator1" name="product-info1" value="Cross System Integrator" disabled>
+                                            <label for="cross_system_integrator1">Cross System Integrator</label><br>
+                                            <input type="radio" id="cross_data_ntegrator1" name="product-info1" value="Cross Data Integrator" disabled>
+                                            <label for="cross_data_ntegrator1">Cross Data Integrator</label><br>
+                                            <input type="radio" id="cross_security_manager1" name="product-info1" value="Cross Security Manager" disabled>
+                                            <label for="cross_security_manager1">Cross Security Manager</label>
                                         </div>
                                     </div>
                                 </div>
@@ -340,5 +340,46 @@
     <script src="content/js/bootstrap.js"></script>
     <script src="content/js/owl.carousel.js"></script>
     <script src="content/js/main.js"></script>
+    <script>
+  function checkProductIterestInfo()
+  {
+      if ($("#product_technical_info").is(':checked'))
+      {
+        $("#cross_system_integrator").prop("disabled", false);   
+        $("#cross_data_ntegrator").prop("disabled", false);   
+        $("#cross_security_manager").prop("disabled", false);        
+      }
+      else{
+        $("#cross_system_integrator").prop("disabled", true);
+        $("#cross_data_ntegrator").prop("disabled", true);
+        $("#cross_security_manager").prop("disabled", true);
+
+        $("#cross_system_integrator").prop("checked", false);
+        $("#cross_data_ntegrator").prop("checked", false);
+        $("#cross_security_manager").prop("checked", false);
+      }
+  }
+    </script>
+
+<script>
+    function checkProductIterestInfo1()
+    {
+        if ($("#demo_req_info").is(':checked'))
+        {
+          $("#cross_system_integrator1").prop("disabled", false);   
+          $("#cross_data_ntegrator1").prop("disabled", false);   
+          $("#cross_security_manager1").prop("disabled", false);        
+        }
+        else{
+          $("#cross_system_integrator1").prop("disabled", true);
+          $("#cross_data_ntegrator1").prop("disabled", true);
+          $("#cross_security_manager1").prop("disabled", true);
+  
+          $("#cross_system_integrator1").prop("checked", false);
+          $("#cross_data_ntegrator1").prop("checked", false);
+          $("#cross_security_manager1").prop("checked", false);
+        }
+    }
+      </script>
     </body>
     </html>
