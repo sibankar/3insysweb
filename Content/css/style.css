@@ -1077,7 +1077,7 @@ color: #343C51;
 
 }
 .cross-system-integrator{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .cross-system-integrator h4{
     font-weight: bold;
@@ -1416,6 +1416,7 @@ padding: 80px 0;
 }
 
 
+
 /*File upload*/
 .et_pb_contact_form_label {
 	display: block;
@@ -1553,3 +1554,34 @@ color: #979797;
     margin-bottom:25px;
     background: #F8F9FD;
 }
+
+/*XSM-User-Experience*/
+.XSM-User-Experience{
+    padding: 0 0 50px;
+}
+.XSM-User-Experience h4{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 80px;
+    margin-bottom: 40px;
+}
+.XSM-User-Experience table{
+    width: 100%;
+}
+.XSM-User-Experience table thead img{
+    height: 45px;
+    width: 45px;
+}
+.XSM-User-Experience .bg-color{
+    background: #F8F9FD;
+
+}
+.XSM-User-Experience table tr td{
+    padding: 15px 35px;
+    font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #437FEC;
+
+}
+
