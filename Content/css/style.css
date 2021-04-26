@@ -1477,3 +1477,79 @@ label[for="et_pb_contact_brand_file_request_0"] {
     right: 40%;
     text-align: center;
 }
+/*contact us*/
+.contact-header-content{
+    padding-top:130px;
+    padding-bottom: 100px;
+}
+.contact-header-left{
+    width: 85%;
+}
+.contact-header-left h1{
+    font-size: 50px !important;
+    line-height: 60px !important;
+    letter-spacing: -0.5px;
+    font-weight: 700 !important;
+    color: #343C51;
+    margin-bottom: 30px;
+}
+
+.contact-header-content form .form-group label {
+    color: #979797;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.contact-header-content form .form-group input {
+    border: 1px solid #D8D8D8;
+    
+    background: #F8F9FD;
+}
+
+.contact-header-content form .form-group input[type=checkbox]{
+    width:16px;
+    height: 16px;
+    border:none;
+    margin-left: 20px;
+    
+}
+.contact-header-content form .form-group input[type=checkbox]:checked {
+  outline: none;
+    
+}
+.blank-label{
+    height:24px;
+}
+.area-checkbox{
+    margin-top: 60px;
+}
+.checkbox-card{
+    background: #F8F9FD;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.checkbox-card label{
+    font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: -0.5px;
+
+color: #979797;
+}
+.checkbox-card input{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+
+.contact-header-content .form-group textarea{
+    border: 1px solid #D8D8D8;
+    margin-bottom:25px;
+    background: #F8F9FD;
+}
