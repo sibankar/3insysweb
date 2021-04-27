@@ -239,8 +239,128 @@
 </section>
 
 
-<Section>
+<Section class="baler-accordian">
+    <div id="textcontainer">
+        <div class="textbox">
+         
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="clear" class="question"></div>
+                        <div id="answer1">
+                        <div class="row">
+                            <div class="col-md-7 my-auto"><div class="baler-accordian-left-content">
+                                <h3>Make Integration a Forethought
 
+                            </h3>
+                        <p>
+                            “Companies often place too much emphasis on the features in the latest technology they are interested in purchasing rather than how to integrate that technology into their operations. If not approached properly, the integration of new solutions into an existing environment can be the hardest part of any project. Integration should be a forethought, not an afterthought.” 
+
+
+
+                        </p>
+                    <p class="text-right"><em><strong>- Aras Raini, CEO</strong></em></p></div></div>
+                            <div class="col-md-5 text-center">
+                                <div class="baler-accordian-right-content ">
+                                    <img src="content/images/baler-accor1.svg">
+                                    <p>As processes are automated and disparate data sources synchronized, new levels of efficiency can be driven across the organization.  
+  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div id="answer2"> 
+                             <div class="row">
+                            <div class="col-md-7 my-auto"><div class="baler-accordian-left-content">
+                                <h3>Digital Automation Through Innovation
+
+                            </h3>
+                        <p>
+                            “Performing manual repetitive processes to transfer or synchronize information between systems decrease operational efficiency and increases risk—so we created a solution that leverages Artificial Intelligence to easily automate workflow processes and drive operational efficiency across the company.”
+
+
+                        </p>
+                    <p class="text-right"><em><strong>- Mike Koch, VP</strong></em></p></div></div>
+                            <div class="col-md-5 text-center">
+                                <div class="baler-accordian-right-content ">
+                                    <img src="content/images/baler-accor1.svg">
+                                    <p>Eliminating repetitive tasks enables employees to focus their time and effort on the areas of the business that drive results.
+  
+                                    </p>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div id="answer3">  <div class="row">
+                            <div class="col-md-7 my-auto"><div class="baler-accordian-left-content">
+                                <h3>The Promise of a Well-Integrated Solution
+                            </h3>
+                        <p>
+                            “Putting devices in the field and installing software isn’t the difficult part.  The difficult part is getting the right data from those devices and legacy applications to the right places. That’s always been an integration challenge.”
+
+                        </p>
+                    <p class="text-right"><em><strong>- Allan Rakos, EVP</strong></em></p></div></div>
+                            <div class="col-md-5 text-center">
+                                <div class="baler-accordian-right-content ">
+                                    <img src="content/images/baler-accor1.svg">
+                                    <p>With proper integration, data is synchronized across sources and a source of truth is kept in one location, ensuring data is never out of date or incorrect.
+                                    </p>
+                                </div>
+                            </div>
+                        </div></div>
+                        <div id="answer4">  <div class="row">
+                            <div class="col-md-7 my-auto"><div class="baler-accordian-left-content">
+                                <h3>Security.  Security.  Security.  
+                            </h3>
+                        <p>
+                            “There’s no such thing as having too much security to protect your data, systems, or devices.  What’s exciting is that the advancements in today’s technology allows for new layers of security and intelligence to be added that don’t overburden the user or administrators..”
+
+                        </p>
+                    <p class="text-right"><em><strong> -  Shiv Prabhu, CTO</strong></em></p></div></div>
+                            <div class="col-md-5 text-center">
+                                <div class="baler-accordian-right-content ">
+                                    <img src="content/images/baler-accor1.svg">
+                                    <p>Delivering multiple levels of security across all areas of operations.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div></div>
+                
+            </div>
+            <div class="col-md-2">
+                <div class="navigation">
+                    <div class="new_member_box"> 
+                    <a class="" href="#"><button class="question1">  </button></a>
+                    </div>
+                    
+                    <div class="new_member_box"> 
+                    <a href="#"> <button class="question2"> </button></a>
+                    
+                    </div>
+                    
+                    <div class="new_member_box"> 
+                        <a href="#"> <button class="question3"> </button></a>
+                    </div>
+                    <div class="new_member_box"> 
+                    <a href="#"> <button class="question4"> </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+      
+    </div>
+      
+      
+        
+        <!-- taken from http://stackoverflow.com/questions/16407315/changing-content-in-a-div-when-a-link-is-clicked -->
+        
+       
+    
+  
  
 </Section>
 
@@ -357,5 +477,100 @@
     <script src="content/js/bootstrap.js"></script>
     <script src="content/js/owl.carousel.js"></script>
     <script src="content/js/main.js"></script>
+    <script>
+      $('[class^="question"]').on('click', function(e){
+    e.preventDefault();
+    var numb = this.className.replace('question', '');
+    $('[id^="answer"]').hide();
+    $('#answer' + numb).show();
+});
+
+// /*changing button color depending on clicked */
+
+// $(document).ready(function(){
+//     $(".question1").click(function(){
+//         $(".question1").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
+//       $(".question2").css("background-color", "");
+//       $(".question3").css("background-color", "");
+//       $(".question4").css("background-color", "");
+//     });
+// });
+
+// $(document).ready(function(){
+//     $(".question2").click(function(){
+//         $(".question2").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
+//       $(".question1").css("box-shadow", "");
+//       $(".question3").css("box-shadow", "");
+//       $(".question4").css("box-shadow", "");
+//     });
+// });
+
+// $(document).ready(function(){
+//     $(".question3").click(function(){
+//         $(".question3").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
+//       $(".question2").css("box-shadow", "");
+//       $(".question1").css("box-shadow", "");
+//       $(".question4").css("box-shadow", "");
+//     });
+// });
+
+$(document).ready(function(){
+    // $(".question4").click(function(){
+    //     $(".question4").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
+    //   $(".question2").css("box-shadow", "");
+    //   $(".question3").css("box-shadow", "");
+    //   $(".question1").css("box-shadow", "");
+    // });
+
+
+
+
+
+    if ( $('.baler-button').hasClass('shadow-baler') ) {
+        $(this).removeClass('shadow-baler');
+    } else {
+        $('.baler-button.shadow-baler').removeClass('shadow-baler');
+        $(this).addClass('shadow-baler');    
+    }
+});
+
+/*jquery selectors came from w3schools */
+
+/*
+
+function setColor(e) {
+  var target = e.target,
+      count = +target.dataset.count;
+
+   target.style.backgroundColor = count === 1 ? "#7FFF00" : '#FFFFFF';
+   target.dataset.count = count === 1 ? 0 : 1;
+   /* 
+
+   () : ? - this is conditional (ternary) operator - equals 
+
+   if (count === 1) {
+      target.style.backgroundColor = "#7FFF00";
+      target.dataset.count = 0;
+   } else {
+      target.style.backgroundColor = "#FFFFFF";
+      target.dataset.count = 1;
+   } 
+   target.dataset - return all "data attributes" for current element, 
+   in the form of object, 
+   and you don't need use global variable in order to save the state 0 or 1
+  
+}
+
+function setColor(btn,color){
+    
+    var property=document.getElementById(btn);
+   if (window.getComputedStyle(property).backgroundColor == 'rgb(244, 113, 33)') {
+      property.style.backgroundColor=color;
+   }
+    else {
+      property.style.backgroundColor = "#f47121";
+    }
+  }*/
+    </script>
     </body>
     </html>

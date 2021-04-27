@@ -1643,5 +1643,88 @@ letter-spacing: -0.015em;
 }
 
 /*integration wiizard carousal*/
+.baler-accordian{
+    background: linear-gradient(180deg, #EDF3FC 0%, rgba(237, 243, 252, 0) 100%);
+    padding: 80px 0;
+}
+ #answer2, #answer3, #answer4 {display: none;}
 
- Stashed changes
+
+
+.textbox {
+  position: relative;
+  top: 1%;
+  left: 12%;
+}
+
+.a1 {
+  height: 30px;
+  width: 200px;
+  background-color: beige;
+}
+
+a {
+  color: white;
+}
+
+.new_member_box {
+
+
+ 
+  text-align: center;
+  font-size: 1em;
+}
+
+
+.new_member_box button:focus{
+    outline:none;
+}
+
+.question1, .question2, .question3, .question4 {
+    border: none;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #EEF2F4;
+    margin: 20px 0 40px;
+}
+
+.new_member_box a{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.navigation::after {
+    position: absolute;
+    content: "";
+    height: 320px;
+    background-color: #ececec;
+    width: 2px;
+    /* margin-left: 15px; */
+    top: 0;
+    right: 50%;
+    z-index: -1;
+}
+.baler-accordian-left-content h3{
+    font-size: 24px !important;
+    line-height: 80px;
+    /* or 333% */
+    
+    letter-spacing: -0.015em;
+    
+    color: #343C51;
+    
+}
+
+.baler-accordian-right-content img{
+    width: 70%;
+}
+
+.shadow-baler{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/*button:active {
+  background-color: maroon;
+}*/
