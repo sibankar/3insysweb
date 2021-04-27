@@ -246,7 +246,7 @@
         </div>
         <div class="container">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-9">
                 <div class="clear" class="question"></div>
                         <div id="answer1">
                         <div class="row">
@@ -329,22 +329,22 @@
                         </div></div>
                 
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="navigation">
                     <div class="new_member_box"> 
-                    <a class="" href="#"><button class="question1">  </button></a>
+                    <a class="baler-anchor" href="#">Operational Efficiency</a><button class="question1 shadow-baler">  </button>
                     </div>
                     
                     <div class="new_member_box"> 
-                    <a href="#"> <button class="question2"> </button></a>
+                    <a class="baler-anchor" href="#">Automated  Workflows </a><button class="question2"> </button>
                     
                     </div>
                     
                     <div class="new_member_box"> 
-                        <a href="#"> <button class="question3"> </button></a>
+                        <a class="baler-anchor" href="#">Centralized Data</a><button class="question3"> </button>
                     </div>
                     <div class="new_member_box"> 
-                    <a href="#"> <button class="question4"> </button></a>
+                    <a  class="baler-anchor" href="#">Advanced Security</a><button class="question4"> </button>
                     </div>
                 </div>
             </div>
@@ -477,100 +477,56 @@
     <script src="content/js/bootstrap.js"></script>
     <script src="content/js/owl.carousel.js"></script>
     <script src="content/js/main.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
+
+ $(document).ready(function(){
       $('[class^="question"]').on('click', function(e){
-    e.preventDefault();
-    var numb = this.className.replace('question', '');
-    $('[id^="answer"]').hide();
-    $('#answer' + numb).show();
-});
+            e.preventDefault();
+            var numb = this.className.replace('question', '');
+            $('[id^="answer"]').hide();
+            $('#answer' + numb).toggle("slide");
+            $(".baler-anchor").removeClass("baler-anchor-bold");
+            $(this).prev().addClass("baler-anchor-bold");            
+        });
 
-// /*changing button color depending on clicked */
-
-// $(document).ready(function(){
-//     $(".question1").click(function(){
-//         $(".question1").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
-//       $(".question2").css("background-color", "");
-//       $(".question3").css("background-color", "");
-//       $(".question4").css("background-color", "");
-//     });
-// });
-
-// $(document).ready(function(){
-//     $(".question2").click(function(){
-//         $(".question2").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
-//       $(".question1").css("box-shadow", "");
-//       $(".question3").css("box-shadow", "");
-//       $(".question4").css("box-shadow", "");
-//     });
-// });
-
-// $(document).ready(function(){
-//     $(".question3").click(function(){
-//         $(".question3").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
-//       $(".question2").css("box-shadow", "");
-//       $(".question1").css("box-shadow", "");
-//       $(".question4").css("box-shadow", "");
-//     });
-// });
-
-$(document).ready(function(){
-    // $(".question4").click(function(){
-    //     $(".question4").css("box-shadow", "0px 4px 4px rgba(0, 0, 0, 0.15)");
-    //   $(".question2").css("box-shadow", "");
-    //   $(".question3").css("box-shadow", "");
-    //   $(".question1").css("box-shadow", "");
-    // });
-
-
-
-
-
-    if ( $('.baler-button').hasClass('shadow-baler') ) {
-        $(this).removeClass('shadow-baler');
-    } else {
-        $('.baler-button.shadow-baler').removeClass('shadow-baler');
-        $(this).addClass('shadow-baler');    
-    }
-});
-
-/*jquery selectors came from w3schools */
-
-/*
-
-function setColor(e) {
-  var target = e.target,
-      count = +target.dataset.count;
-
-   target.style.backgroundColor = count === 1 ? "#7FFF00" : '#FFFFFF';
-   target.dataset.count = count === 1 ? 0 : 1;
-   /* 
-
-   () : ? - this is conditional (ternary) operator - equals 
-
-   if (count === 1) {
-      target.style.backgroundColor = "#7FFF00";
-      target.dataset.count = 0;
-   } else {
-      target.style.backgroundColor = "#FFFFFF";
-      target.dataset.count = 1;
-   } 
-   target.dataset - return all "data attributes" for current element, 
-   in the form of object, 
-   and you don't need use global variable in order to save the state 0 or 1
-  
-}
-
-function setColor(btn,color){
+    $(".question1").click(function(){
+       $(".question1").addClass("shadow-baler");
+       $(".question2").removeClass("shadow-baler");
+       $(".question3").removeClass("shadow-baler");
+       $(".question4").removeClass("shadow-baler");
+    });
     
-    var property=document.getElementById(btn);
-   if (window.getComputedStyle(property).backgroundColor == 'rgb(244, 113, 33)') {
-      property.style.backgroundColor=color;
-   }
-    else {
-      property.style.backgroundColor = "#f47121";
-    }
-  }*/
+    $(".question2").click(function(){
+        $(".question2").addClass("shadow-baler");
+        $(".question1").removeClass("shadow-baler");
+        $(".question3").removeClass("shadow-baler");
+        $(".question4").removeClass("shadow-baler"); 
+       });
+    
+     $(".question3").click(function(){
+         $(".question3").addClass("shadow-baler");
+        $(".question2").removeClass("shadow-baler");
+        $(".question1").removeClass("shadow-baler");
+        $(".question4").removeClass("shadow-baler");
+     });
+     
+     $(".question4").click(function(){
+         $(".question4").addClass("shadow-baler");
+       $(".question2").removeClass("shadow-baler");
+       $(".question3").removeClass("shadow-baler");
+       $(".question1").removeClass("shadow-baler");
+    });
+
+    // if ( $('.baler-button').hasClass('shadow-baler') ) {
+    //     $(this).removeClass('shadow-baler');
+    // } else {
+    //     $('.baler-button.shadow-baler').removeClass('shadow-baler');
+    //     $(this).addClass('shadow-baler');    
+    // }
+});
+
+
     </script>
     </body>
     </html>
