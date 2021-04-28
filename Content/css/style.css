@@ -352,7 +352,7 @@ border: 1px solid #D8D8D8;
 box-sizing: border-box;
 border-radius: 5px;
 height: 40px;
-width: 250px;
+width: 230px;
 }
 .footer hr{
     border: 0.75px solid #9DAFBD;
@@ -1148,7 +1148,7 @@ margin-bottom: 20px;
     font-size: 14px;
     line-height: 21px;
     color: #343C51;
-    height: 100px;
+    height: 120px;
     margin-bottom: 20px;
 }
 .otherposition-card a{
@@ -1232,7 +1232,7 @@ padding: 80px 0;
 }
 .acc-btn1 {
     width: 100%;
-    padding: 40px 90px;
+    padding: 30px 90px;
     cursor: pointer;
     background: inherit;
     border: none;
@@ -1740,3 +1740,28 @@ color: #343C51 !important;
 /*button:active {
   background-color: maroon;
 }*/
+
+.open-position table th a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #343C51;
+    
+}
+.open-position::after {
+    position: absolute;
+    content: url(../images/Integration-page/Header/bg-top-element.png);
+    background: no-repeat;
+    right: 0;
+    transform: rotate(180deg);
+    top: 12%;
+}
+.Building-Blocks::after {
+    position: absolute;
+    content: url(../images/Integration-page/Header/bg-top-element.png);
+    background: no-repeat;
+    left: 0;
+    
+    bottom: 10%;
+}
+
