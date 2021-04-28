@@ -8,6 +8,7 @@ body{
     background: #fff;
     font-family: 'Lato', sans-serif !important;
     color: #343C51 !important;
+    padding-right: initial !important;
 }
 p{
     font-family: Lato;
@@ -530,7 +531,7 @@ margin-bottom: 20px;
 .section-2{
     padding: 100px 0;
     background: url(../images/color-bg.svg);
-    background-position: bottom;
+    background-position: top;
     position: relative;
     
 }
@@ -773,23 +774,20 @@ padding: 40px 20px;
     margin-left: auto;
 }
 .our-team{
-    padding: 80px 0;
+    padding: 80px 0 200px;
     background: #F6F8FE;
 }
 .our-team h4{
     font-weight: bold;
     margin-bottom: 80px;
 }
-.our-team img{
+.our-team .open-modal img{
     height: 185px;
     width: 185px;
     border-radius: 50%;
     margin:0 auto 20px;
 }
-.our-team p{
-    font-size: 18px;
-    font-weight: bold;
-}
+
 .our-team span{
     font-size: 18px;
     color: #437FEC;
@@ -802,8 +800,8 @@ padding: 40px 20px;
 .single-team{
     background: #FFFFFF;
 box-shadow: 0px 4px 14px 8px rgba(0, 0, 0, 0.25);
-padding: 60px 100px 60px 112px;
-height: 550px;
+padding: 60px 100px;
+height: 480px;
 }
 .single-team img{
     padding-top: 72px;
@@ -1765,3 +1763,78 @@ color: #343C51 !important;
     bottom: 10%;
 }
 
+.popup-team-div .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border-radius: 0;
+  
+    width: 100vw;
+    margin:auto;
+    border: none;
+   
+  }
+  .popup-team-div .modal-body {
+    
+    padding: initial;
+}
+.popup-team-div .modal-body .close-btn{
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
+
+.popup-team-div .modal-body button:focus{
+    outline: none;
+  
+}
+
+.carousal-baler .single-team{
+
+    height: 480px;
+}
+
+
+.our-team .modal {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    /* bottom: 0; */
+    left: 0;
+    z-index: 1;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    padding: initial;
+    height: 750px;
+ 
+}
+.our-team{
+    position: relative;
+}
+
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+.modal-backdrop {
+    position: absolute;
+    
+    z-index: -1;
+    background-color: none;
+}
+
+.popup-team-div .our-team-inner{
+    padding:150px 0 50px;
+}
+
+.popup-team-div .our-team-inner .single-team img{
+    width:250px;
+}
+
+.open-modal img, .open-modal p, .open-modal span {
+    pointer-events: none;
+}
+
+#popup-team-div{
+    padding-right: initial !important;
+}
