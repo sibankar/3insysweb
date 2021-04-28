@@ -820,10 +820,10 @@ height: 550px;
     transform: translateY(-50%) !important;
 }
 .team-carousel .owl-prev {
-    left: -170px !important;
+    left: -12% !important;
 }
 .team-carousel .owl-next {
-    right: -170px;
+    right: -12%;
 }
 
 
