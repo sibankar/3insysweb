@@ -218,6 +218,17 @@ padding: 10px 45px 10px 15px !important;
     font-weight: 700;
 }
 /*system-data-content*/
+.system-data h3{
+    font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+color: #343C51;
+}
+.system-data h4{
+    font-weight: normal;
+    line-height: 51px;
+}
 .heading3{
     font-family: Lato;
 font-style: normal;
@@ -233,10 +244,10 @@ text-align: center;
 margin-bottom: 25px;
 }
 .system-data-content{
-    margin-bottom: 70px;
     text-align: center;
     line-height: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
+    font-size: 15px;
 }
 .system-data-content span{
     font-weight: bold;
@@ -250,19 +261,26 @@ transition: 2s;
 }
 .XSI-img-blue{
     display: none;
-    transform: translateY(-70px);
+    transform: translateY(-50px);
+}
+.xsi p{
+width: 95%;
 }
 .system-data-header{
     margin-bottom: 100px;
 }
+.water-icon{
+    margin-bottom: 18px;
+}
 /*Integrated-Products*/
 .Integrated-Products{
     background:  url(../images/Section2/Section-2-bg-image.png);
-    background-position: center;
+    background-position: 50% 40.8%;
     background-repeat: no-repeat;
-    background-size: 100% 50%;
-
+    background-size: 100% 44%;
 }
+
+
 .heading1 h2{
     color: #437FEC;
     font-weight: 700;
@@ -324,7 +342,7 @@ transition: 2s;
 
 /*footer*/
 .footer-logo img{
-width: 220px;
+width: 205px;
 }
 .footer{
     background: url(../images/footer-bg.png);
@@ -339,8 +357,19 @@ width: 220px;
 .footer-heading{
     margin-bottom: 140px;
 }
-.footer-item h6,.footer-item2 h6{
-    margin-bottom: 40px;
+.footer-item h6{
+    margin-bottom: 35px; 
+}
+.footer-item2 h6{
+    margin-bottom: 15px;
+}
+.footer-item2{
+    position: relative;
+    bottom: -25px;
+}
+.map-img{
+    position: relative;
+    bottom: -15px;
 }
 .footer-item ul li a{
     font-weight: 300;
@@ -357,6 +386,10 @@ border-radius: 5px;
 height: 40px;
 width: 230px;
 }
+.address-footer{
+    text-decoration-line: underline;
+   text-underline-offset: 3px;
+}
 .footer hr{
     border: 0.75px solid #9DAFBD;
 background: #9DAFBD ;
@@ -369,16 +402,23 @@ line-height: 18px;
 color: #343C51;
 }
 .social-icon{
-    margin-bottom: 50px;
+    margin: 0px 0 30px;
 }
 .social-icon li{
     display: inline-block;
-    padding: 0  12px;
+    padding: 0 10px;
 }
 .footer-item ul{
     margin-bottom: 0;
 }
-
+.copyright{
+    font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #343C51;
+}
 
 /*Integration-Advances*/
 .Integration-Advances{
