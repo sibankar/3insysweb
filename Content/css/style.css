@@ -1,4 +1,5 @@
 /*typography*/
+
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap);
 *{
     margin: 0;
@@ -188,6 +189,39 @@ color: #000000;
 border: none;
 padding: 10px 45px 10px 15px !important;
 }
+
+.navigation-bar .dropdown-toggle::after {
+    display: inline-block;
+    
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: url(../images/nav-arrrow.svg);
+    width: auto;
+    height: auto;
+    vertical-align: unset;
+   
+    border-top: initial;
+    border-right: initial;
+    border-bottom: initial;
+    border-left: initial;
+    transform: translateY(-3px);
+}
+
+.navigation-bar .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+
+.navigation-bar .navbar-light .navbar-toggler:focus {
+    outline: none;
+}
+
+.navigation-bar .navbar-light .navbar-toggler-icon {
+    background-image: url(../images/Group108.svg);
+}
+    
+
+
 .dropdown-item span{
     margin-right: 10px;
 }
@@ -541,12 +575,13 @@ color: #343C51;
     content: url(../images/bullets.png);
     transform: translateX(-18px);
 }
-.xsi-header-area{
-    background-image: url('../images/xsi/header-bg-image.svg');
-    background-position: center top;
-     background-size: cover;
-     margin-bottom: 70px;
-     padding: 100px 0 0 0;
+.xsi-header-area {
+    background-image: url(../images/xsi/header-bg-image.svg);
+    background-position: right bottom;
+    background-size: 50%;
+    margin-bottom: 70px;
+    padding: 125px 0 0 0;
+    background-repeat: no-repeat;
 }
 .important-integration-title{
 font-size: 30px;
@@ -984,7 +1019,8 @@ color: #343C51;
 }
 .it-system{
     position: relative;
-    top:-200px;
+    top: -240px;
+    left: -5px;
 }
 .it-system::before{
     content: url(../images/Vector52.svg);
@@ -1929,4 +1965,39 @@ color: #343C51 !important;
 
 #popup-team-div{
     padding-right: initial !important;
+}
+
+
+
+@media (max-width:991px){
+    .navigation-bar .navbar-nav .nav-link {
+        text-align: left;
+        padding: 10px 10px 10px 0  !important;
+    }
+
+    .navigation-bar .dropdown-toggle::after {
+      
+        float: right;
+        margin-right: 10px;
+    }
+    .navigation-bar .nav-link.active {
+         border-bottom: none; 
+         text-decoration: underline !important;
+         color: #437FEC !important;
+    }
+
+    .navigation-bar .navbar-brand img {
+        width: 85px;
+    }
+
+    .navigation-bar .navbar{
+        padding:25px 30px 25px 30px !important;
+    }
+
+    .navigation-bar .dropdown-menu {
+        background: #FFFFFF;
+        box-shadow: none;
+        border: none;
+    }
+    img {max-width:100%}
 }

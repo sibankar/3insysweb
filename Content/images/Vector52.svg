@@ -1,3 +1,6 @@
-<svg width="111" height="3" viewBox="0 0 111 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M109.123 1.52637L1.12304 1.52637" stroke="#B7C0EB" stroke-width="2" stroke-linecap="square" stroke-dasharray="2 5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="120.123" height="11.256" viewBox="0 0 120.123 11.256">
+  <g id="Group_593" data-name="Group 593" transform="translate(0 -56)">
+    <path id="Path_3" data-name="Path 3" d="M119.123,62.526h-108" fill="none" stroke="#b7c0eb" stroke-linecap="square" stroke-width="2" stroke-dasharray="2 5"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" transform="translate(11.256 56.259) rotate(91.348)" fill="#b7c0eb"/>
+  </g>
 </svg>
