@@ -1967,9 +1967,106 @@ color: #343C51 !important;
     padding-right: initial !important;
 }
 
-
+.mobile-xsi-btn{
+    display: none;
+}
+.xsi-header-area ul{
+    margin-bottom: 3rem ;
+}
 
 @media (max-width:991px){
+
+    .container {
+        
+        padding-right: 30px;
+        padding-left: 30px;
+     
+    }
+    .xsi-header-area {
+       
+        background-position: top 75% left 100%;
+        background-size: 95%;
+        margin-bottom: 70px;
+        padding: 30px 0 0 0;
+        background-repeat: no-repeat;
+
+    }
+    .xsi-header-area::after {
+        content: url(../images/Vector72.svg);
+        position: absolute;
+    
+        left: 50%;
+        transform: translateX(-50%);
+      
+    }
+    .cross-content-flex-mobile{
+        display: inline-flex;
+        margin-top: 15px;
+    }
+    .cross-security-content-card {
+        padding: 30px 0px 0 0px;
+        text-align: center;
+        background: #F4F4F4;
+        border-radius: 26px;
+        height: 295px;
+        margin-bottom: 30px;
+        margin-right: auto; 
+        width: 50%;
+    }
+
+    .cross-content-flex-mobile .cross-security-content-card:first-of-type{
+        margin-right: 10px;
+    }
+    .cross-content-flex-mobile .cross-security-content-card:last-of-type{
+        margin-left: 10px;
+    }
+
+    .cross-system-integrator .cross-security-content-card:first-child::after {
+        content: url(../images/xsi/Group430.svg);
+        top: -10%;
+        position: absolute;
+        right: 17%;
+        z-index: 1;
+        transform: rotate(90deg);
+    }
+    .cross-system-integrator .cross-security-content-card:last-child::after {
+        content: url(../images/xsi/Group430.svg);
+        top: -10%;
+        position: absolute;
+        z-index: 1;
+        left: 15%;
+        transform: rotate(90deg);
+    }
+    .card-security::after {
+        content: url(../images/xsi/Group430.svg);
+        bottom: -25%;
+        position: absolute;
+        right: 41%;
+        z-index: 1;
+        top: auto;
+    }
+    .xsi-header-area h5{
+        font-size: 20px !important;
+        line-height: 60px !important;
+/* or 300% */
+        font-weight: bold;
+
+        color: #343C51;
+    }
+
+    .xsi-header-area ul{
+        margin-bottom: 35px ;
+    }
+    
+    .desktop-xsi-btn{
+        display: none;
+    }
+
+    .mobile-xsi-btn{
+        display: block;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
     .header-area {
       
         margin-bottom: initial;
