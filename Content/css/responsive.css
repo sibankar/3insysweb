@@ -2,4 +2,194 @@
     .navigation-bar .navbar-nav .nav-link {
         text-align: left;
     }
+    .header-area {
+      
+        margin-bottom: initial;
+    }
+    .system-data-header {
+        margin-bottom: 10px;
+    }
+    .system-data-content {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .XSI-img-blue {
+       
+        transform: none;
+    }
+
+    .icon-name {
+       
+    font-size: 12px !important;
+    line-height: 26px !important;
+      
+    }
+    .water-icon {
+        margin-bottom: 5px;
+    }
+
+
+    .overflow-feature{
+        display: -webkit-box;
+        width: 100%;
+        overflow: auto;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .overflow-feature::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+    
+
+    .system-data h3 {
+        font-size: 30px !important;
+        line-height: 45px;
+        letter-spacing: -0.1px;
+        text-align: left;
+    }
+    .navigation-bar .navbar-nav .nav-link {
+        text-align: left;
+        padding: 10px 10px 10px 0  !important;
+        
+    }
+
+    .navigation-bar .dropdown-toggle::after {
+        transform: rotate(270deg);
+        float: right;
+        margin-right: 10px;
+    }
+
+    .navigation-bar .dropdown.show .dropdown-toggle::after {
+        transform: none;
+    }
+    .navigation-bar .nav-link.active {
+         border-bottom: none; 
+         text-decoration: underline !important;
+         color: #437FEC !important;
+    }
+
+    .navigation-bar .navbar-brand img {
+        width: 85px;
+    }
+
+    .navigation-bar .navbar{
+        padding:25px 30px 25px 30px !important;
+    }
+
+    .navigation-bar .dropdown-menu {
+        background: #FFFFFF;
+        box-shadow: none;
+        border: none;
+    }
+    img {max-width:100%}
+    .header-area {
+        background-image: url(../images/Header/header-bg-image1_mobile.png);
+        }
+    .header-content h1{
+        font-size: 36px !important;
+        line-height: 54px   !important;
+    }
+    .header-content {
+        text-align: center;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    .system-data h4{
+        font-weight: bold;
+font-size: 18px !important;
+line-height: 24px !important;
+margin-bottom: 15px;
+    }
+    .heading1 h2{
+        font-weight: bold;
+font-size: 26px !important;
+line-height: 45px !important;
+    }
+    .Integrated-Products hr {
+        margin: 25px 0;
+    }
+    .Integrated-Products h4 {
+        font-weight: bold;
+font-size: 30px !important;
+line-height: 45px !important;
+    }
+    .xsi,.xdi,.xsm{
+        padding: 25px 0 70px;
+    }
+    .xsi-content,.xdi-content,.xsm-content{
+        padding-left: 30px;
+    }
+    .text-img{
+        max-width: 230px !important;
+    }
+    .btn-web{
+        display: none;
+    }
+   .pr-5{
+       padding-right: 15px !important;
+   }
+   .text-center-mob{
+       text-align: center !important;
+   }
+   .xsi-img{
+       margin-bottom: 35px;
+   }
+   .pl-5{
+       padding-left: 15px !important;
+   }
+   .Integration-Advances {
+    background: url(../images/Section3/bg-image_mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    padding: 40px 0;
+    background-position: bottom;
+}
+.Integration-Advances h4{
+    font-size: 30px !important;
+line-height: 39px !important;
+}
+.Integration-Advances p{
+    font-size: 14px !important;
+line-height: 21px !important;
+}
+.Integration-Advances .btn-3{
+    font-size: 14px !important;
+line-height: 24px !important;
+}
+.px-mob-9{
+    padding: 0 90px;
+}
+.digital-evolution h4 {
+    font-size: 26px !important;
+    line-height: 39px !important;
+}
+
+
+.brand-carousel .owl-item img {
+    padding: 0px;
+     height:auto;
+    filter: grayscale();
+}
+.digital-evolution .partner-header{
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    padding: 0 50px;
+    margin-bottom: 45px;
+}
+.digital-evolution .btn-4{
+    font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+}
+}
+@media (min-width:992px){
+    .btn-mob{
+        display: none;
+    } 
 }
