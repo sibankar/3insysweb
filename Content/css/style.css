@@ -2264,8 +2264,8 @@ text-align: center;
 .XSM-Key-Features .nav-link:hover .XSM-Key-card img {
     filter: grayscale(0);
 }
-.member-1:hover {
-    filter: grayscale(0) !important;
+.member-1:hover img {
+    filter: none;
 }
 .our-vision-card h5{
     font-weight: bold;
