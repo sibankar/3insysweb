@@ -936,13 +936,15 @@ height: 480px;
 
 
 /*career-header-area*/
-.career-header-area{
-    background-image: url('../images/career/career-header-bg.svg');
-    background-position: center top;
-     background-size: cover;
-     margin-bottom: 70px;
-     padding: 60px 0;
-     margin-top: 20px;
+
+.career-header-area {
+    background-image: url(../images/career/career-header-bg.svg);
+    background-position: right -15% top;
+    background-size: 50%;
+    margin-bottom: 70px;
+    padding: 60px 0;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
 .open-position p{
 font-size: 18px;
