@@ -680,7 +680,52 @@
         left: 3%;
         transition: all 0.3s linear;
     }
-
+    .vertical-divider::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 24%;
+        background: white;
+        top: 44%;
+        right: 50%;
+        transform: rotate(90deg);
+    }
+    .section-2 {
+        padding: 100px 0;
+        background: #F8F9FD;
+        background-position: top;
+        position: relative;
+    }
+    .performance-anlytic li::before {
+        content: url(../images/Vector10-mob.svg);
+        position: absolute;
+        transform: translate(-30px ,4px);
+    }
+    .performance-anlytic li{
+        font-size: 16px;
+line-height: 18px;
+    }
+    .Advanced-Capabilities h4{
+        font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+    }
+    .Advanced-Capabilities p {
+        font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+    }
+    .cross-system-integrator h4 {
+        font-weight: bold;
+font-size: 28px;
+line-height: 42px;
+margin-bottom: 20px;
+    }
+    .cross-system-integrator .heading-text{
+        font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+    }
 }
 
 /*special cases for tablet*/
