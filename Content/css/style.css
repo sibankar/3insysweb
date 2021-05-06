@@ -36,29 +36,29 @@ ul{
 h1{
     font-family: Lato;
     font-style: normal;
-    font-size: 50px !important;
-    line-height: 75px !important;
+    font-size: 50px ;
+    line-height: 75px ;
 }
 h2{
     font-family: Lato;
 font-style: normal;
 font-weight: bold;
-font-size: 55px !important;
-line-height: 45px !important;   
+font-size: 55px ;
+line-height: 45px;   
 }
 h3{
     font-family: Lato;
 font-style: normal;
-font-size: 40px !important;
-line-height: 51px !important;
+font-size: 40px ;
+line-height: 51px ;
 }
 h4{
     font-family: Lato;
 font-style: normal;
 font-weight: bold;
-font-size: 34px !important;
+font-size: 34px ;
 line-height: 45px;
-letter-spacing: -0.1px !important;
+letter-spacing: -0.1px;
 }
 h5{
     font-family: Lato;
@@ -71,7 +71,7 @@ h6{
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 18px ;
 }
 .btn-1{
     background: #00C3FF;
@@ -82,6 +82,11 @@ color: #fff;
 border: none;
 margin-top: 10px;
 
+}
+.talktous-btn{
+    font-weight: bold;
+font-size: 18px;
+line-height: 22px;
 }
 .btn-1:hover{
 color: #fff !important;
@@ -100,15 +105,17 @@ color: #0160E7;
     background: #00C3FF;
 box-shadow: 0px 8px 8px rgba(0, 195, 255, 0.25);
 border-radius: 5px;
-padding: 15px 45px;
+padding: 15px 85px;
 color: #fff;
+font-size: 18px;
 }
 .btn-4{
     border:2px solid  #437FEC ;
     padding: 15px 25px;
     color:  #437FEC ;
-    Font-size: 24px;
+    Font-size: 22px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .btn-5{
     padding: 20px 35px;
@@ -279,9 +286,9 @@ margin-bottom: 25px;
 }
 .system-data-content{
     text-align: center;
-    line-height: 24px;
-    margin-bottom: 6px;
-    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    font-size: 18px;
 }
 .system-data-content span{
     font-weight: bold;
@@ -337,9 +344,14 @@ width: 95%;
     padding: 75px 0;
 }
 .digital-evolution  h4{
-    font-weight: 700;
-    font-size:40px;
-    text-transform: uppercase;
+    font-weight: bold;
+font-size: 40px;
+line-height: 80px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #343C51;
+text-transform: uppercase;
+margin-bottom: 30px;
 }
 .digital-evolution .partner-header{
     font-size: 24px !important;
@@ -396,6 +408,11 @@ width: 205px;
 }
 .footer-heading{
     margin-bottom: 140px;
+}
+.footer-item2 h6{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
 }
 .footer-item h6{
     margin-bottom: 35px; 
@@ -679,6 +696,11 @@ margin-bottom: 40px;
 .System-Integration-Made-Easy{
     margin-bottom: 50px;
 }
+.System-Integration-Made-Easy h3{
+    font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+}
 .System-Integration-Made-Easy p{
     font-size: 18px !important;
     line-height: 27px;
@@ -686,8 +708,8 @@ margin-bottom: 40px;
 }
 .key-features-title{
     font-weight: bold;
-font-size: 38px;
-line-height: 51px;
+    font-size: 38px;
+    line-height: 27px;
 letter-spacing: -0.1px;
 color: #343C51;
 margin-bottom: 60px;
@@ -768,6 +790,11 @@ color: #437FEC;
     text-align: center;
     height: 380px;
 
+}
+.Centralized-card h5{
+    font-weight: bold;
+font-size: 24px;
+line-height: 24px;
 }
 /*xsm-products*/
 .xsm-section-1{
@@ -850,7 +877,15 @@ border-radius: 12px;
 
 }
 .We-Are-3Insys p{
-    font-size: 18px;
+    font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+}
+.We-Are-3Insys h4{
+    font-weight: bold;
+font-size: 34px;
+line-height: 80px;
+margin-bottom: 10px;
 }
 .our-vision-card{
     background: #EDF3FC;
@@ -946,6 +981,12 @@ height: 480px;
     margin-top: 20px;
     background-repeat: no-repeat;
 }
+.career-header-area h1{
+    font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+margin-bottom: 15px;
+}
 .open-position p{
 font-size: 18px;
 line-height: 28px;
@@ -1011,7 +1052,7 @@ color: #343C51;
 
 /*System  integrity*/
 .OT-and-IT{
-    margin-bottom: -80px;
+    margin-bottom: -200px;
 }
 .OT-and-IT hr{
     position: relative;
@@ -1837,16 +1878,20 @@ color: #979797;
     z-index: -1;
 }
 .baler-accordian-left-content h3{
-    font-size: 24px !important;
+    font-size: 24px;
     line-height: 80px;
-    /* or 333% */
-    
+    font-weight: bold;
     letter-spacing: -0.015em;
-    
     color: #343C51;
-    
 }
-
+.baler-accordian-right-content p{
+    font-size: 18px;
+line-height: 25px;
+}
+.baler-accordian-left-content p{
+    font-size: 18px;
+line-height: 27px;
+}
 .baler-accordian-right-content img{
     width: 70%;
 }
@@ -2284,4 +2329,22 @@ line-height: 30px;
     font-weight: bold;
 font-size: 50px;
 line-height: 60px;
+}
+.ot-device h4,.it-system h4{
+    font-weight: bold;
+font-size: 34px;
+line-height: 51px;
+}
+.Ecosystem-Partner-Environment{
+    padding: 40px 0 ;
+}
+.Ecosystem-Partner-Environment h3{
+    font-weight: bold;
+font-size: 34px;
+line-height: 80px;
+}
+.Ecosystem-Partner-Environment p{
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
 }
