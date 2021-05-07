@@ -291,28 +291,43 @@
     }
 
     .cross-system-integrator .cross-security-content-card:first-child::after {
-        content: url(../images/xsi/Group430.svg);
-        top: -10%;
+        content: '';
+        top: -8%;
         position: absolute;
-        right: 17%;
+        right: 22%;
         z-index: 1;
         transform: rotate(90deg);
+        background-image: url(../images/xsi/Group430.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        height: 40px;
+        width: 40px;
     }
     .cross-system-integrator .cross-security-content-card:last-child::after {
-        content: url(../images/xsi/Group430.svg);
-        top: -10%;
+        content: '';
+        top: -8%;
         position: absolute;
         z-index: 1;
-        left: 15%;
+        left: 19%;
         transform: rotate(90deg);
+        background-image: url(../images/xsi/Group430.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        width: 40px;
+        height: 40px;
     }
     .card-security::after {
-        content: url(../images/xsi/Group430.svg);
-        bottom: -25%;
+        content: '';
+        bottom: -29%;
         position: absolute;
-        right: 41%;
+        right: 44%;
         z-index: 1;
         top: auto;
+        background-image: url(../images/xsi/Group430.svg);
+        background-size: 45px;
+        background-repeat: no-repeat;
+        width: 45px;
+        height: 45px;
     }
     .xsi-header-area h5{
         font-size: 20px !important;
@@ -554,7 +569,7 @@
     font-size: 16px;
     line-height: 19px;
     }
-    .bullets{
+    .xsi-header-area .bullets{
         font-weight: normal;
     font-size: 18px;
     line-height: 30px;
@@ -595,7 +610,7 @@
         padding: 25px 20px;
         width: 90%;
         margin: auto;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         margin-top: 30px;
         z-index: 2;
     }
@@ -691,7 +706,7 @@
         transform: rotate(90deg);
     }
     .section-2 {
-        padding: 100px 0;
+        padding: 40px 0;
         background: #F8F9FD;
         background-position: top;
         position: relative;
@@ -726,6 +741,120 @@ margin-bottom: 20px;
 font-size: 16px;
 line-height: 24px;
     }
+    .xdi-header-area {
+        background-image: url(../images/XDI/XDI-header-bg.svg);
+        background-position: center top;
+        background-size: cover;
+        padding: 35px 0;
+    }
+    .xdi-text-image{
+        margin-bottom: 10px;
+    }
+    .xdi-header-area h5 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .xdi-header-area .bullets {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Importance-of-Integration h3{
+        font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+    }
+    .Importance-of-Integration {
+        padding: 35px 0;
+    }
+    .important-integration-subtitle{
+        font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+    }
+    .System-Integration-Made-Easy h5{
+        font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+    }
+    .System-Integration-Made-Easy {
+        margin-bottom: 20px;
+    }
+    .dm-title{
+        font-weight: bold;
+font-size: 28px;
+line-height: 51px;
+    }
+    .performance-anlytic1 li{
+        padding-left: 28px;
+        font-size: 16px;
+line-height: 24px;
+    }
+    .Centralized-card{
+        width: 250px;
+        margin-bottom: 35px;
+    }
+    .Centralized-card p{
+        font-size: 18px;
+line-height: 27px;
+    }
+    .Centralized-Data-Storage h4{
+        font-weight: bold;
+font-size: 30px;
+line-height: 80px;
+    }
+    .semi-title{
+        font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+margin-bottom: 25px;
+    }
+    .para1{
+        font-size: 16px;
+line-height: 24px;
+text-align: left;
+    }
+    .Centralized-Data-Storage {
+        padding: 30px 0;
+    }
+    .card-security .cross-system-heading {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .cross-system-content-card img, .cross-security-content-card img {
+        max-width: 50px;
+    }
+    .cross-system-content-card h3{
+        font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+    }
+    .cross-system-content-card p{
+        font-size: 14px;
+line-height: 21px;
+    }
+    .Intelligent-Preparation{
+        padding-right: 6px !important;
+    padding-left: 0px !important;
+    }
+    .card-security {
+        background: #EFF1FE;
+        border-radius: 26px;
+        padding: 20px;
+    }
+    .cross-security-content-card h3{
+        font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+    }
+    .cross-security-content-card p {
+        color: #979797;
+        font-size: 18px;
+        margin: 20px 0 5px;
+    }
 }
 
 /*special cases for tablet*/
@@ -742,6 +871,9 @@ line-height: 24px;
         display: none;
     }
     .key-features-title-mob{
+        display: none;
+    }
+    .d-none-web{
         display: none;
     }
 }
