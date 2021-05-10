@@ -855,6 +855,42 @@ line-height: 24px;
         font-size: 18px;
         margin: 20px 0 5px;
     }
+    .xsm-section-1{
+        padding: 35px 0;
+    }
+    .important-integration-content {
+        padding-left: 15px;
+        margin-bottom: 25px;
+    }
+    .system-integration-card-para-1{
+        padding: 10px;
+    }
+    .Security-Integration-Made-Easy h3{
+        font-weight: bold;
+font-size: 24px;
+line-height: 45px;
+margin-bottom: 25px;
+    }
+    .XSM-Key-Features h4{
+        font-weight: bold;
+font-size: 30px;
+line-height: 24px;
+    }
+    .XSM-Key-card img{
+        width: 60px;
+    }
+    .XSM-Key-card {
+        display: flex;
+        height: 130px;
+        text-align: left;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .Key-card-title{
+        font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+    }
 }
 
 /*special cases for tablet*/
