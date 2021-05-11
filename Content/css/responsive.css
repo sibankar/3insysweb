@@ -452,6 +452,7 @@
     .integraton-bg .header-content h1 {
         text-transform: none;
         font-size: 40px !important;
+        line-height: 55px !important;
     }
     .integraton-bg .header-content .intergration-header-comma{
         display: initial;
@@ -478,8 +479,15 @@
         left: auto;
         top: -25%;
     }
-    .integration-banner-hr{margin-top: 40px !important;margin-bottom: 70px !important;}
-    .integration-feature img{width:130px;}
+    .integration-banner-hr
+    {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+    .integration-feature img{
+        width:130px;
+        margin-bottom: 10px;
+    }
     .integraton-bg:after {
 
         display: none;
@@ -503,7 +511,7 @@
         
     }
     .integration-feature h3{
-        line-height: 27px;
+        line-height: 30px;
     }
 
    .pr-5{
@@ -877,11 +885,12 @@ font-size: 30px;
 line-height: 24px;
     }
     .XSM-Key-card img{
-        width: 60px;
+        width: 55px;
+        margin-right: 15px;
     }
     .XSM-Key-card {
         display: flex;
-        height: 130px;
+        height: 115px;
         text-align: left;
         padding: 20px;
         margin-bottom: 20px;
@@ -890,6 +899,231 @@ line-height: 24px;
         font-weight: bold;
 font-size: 20px;
 line-height: 28px;
+    }
+    .XSM-User-Experience h4 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 30px 30px 0;
+    }
+    .xsm-table-heading{
+        font-size: 14px;
+line-height: 24px;
+    }
+    .XSM-User-Experience table thead img {
+        height: 30px;
+        width: 30px;
+    }
+    .XSM-User-Experience table tr td {
+        font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+padding: 5px 25px;
+    }
+    .XSM-User-Experience .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .integraton-bg-banner{
+        padding-bottom: 0;
+    }
+    .integration-feature{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .integraton-bg {
+       margin-bottom: 30px;
+       
+    }
+    .importance-integration h4 {
+        font-weight: bold;
+        font-size: 30px !important;
+        line-height: 51px !important;
+    }
+    .importance-integration {
+        padding-top: 30px !important;
+    }
+    .importance-integration::after {
+        display: none;
+    }
+    .integration-card {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 40px rgb(0 0 0 / 10%);
+        border-radius: 28px;
+    }
+    .devops h4 {
+        font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+margin-bottom: 20px;
+    }
+    .devops h5{
+        font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 15px;
+text-align: left;
+    }
+    .devops ul li {
+        font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+    }
+    .sasm-img{
+        width: 90px;
+        height: 90px;
+    }
+    .devops p{
+        font-size: 16px;
+line-height: 24px;
+    }
+    .devops {
+        padding: 50px 0;
+    }
+    .question1, .question2, .question3, .question4 {
+        border: none;
+        color: white;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid #EEF2F4;
+        position: relative;
+        top: -13px;
+        margin: 0 20px;
+        left: 46px;
+    }
+    .navigation::after {
+        position: absolute;
+        content: "";
+        height: 2px;
+        background-color: #ececec;
+        width: 320px;
+        /* margin-left: 15px; */
+        top: 0;
+        right: 8%;
+        z-index: -1;
+    }
+    .navigation{
+        display: flex;
+        position: relative;
+    top: -420px;
+    }
+    .baler-anchor{
+        display: none;
+        position: absolute;
+    top: 20px;
+    }
+    .baler-anchor-bold{
+        display: block !important;
+    }
+    .baler-accordian-left-content h3 {
+        font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+margin-bottom: 50px;
+    }
+    .baler-accordian {
+      padding: 50px 0;
+    }
+    .baler-accordian-left-content p {
+        font-size: 16px;
+line-height: 24px;
+    }
+    .member-by{
+        font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 40px;
+float: right;
+    }
+    .baler-accordian-right-content {
+        margin-top: 100px;
+    }
+    .img-bot-para{
+        height: 70px;
+    }
+    .We-Are-3Insys h4 {
+        font-weight: bold;
+font-size: 30px;
+line-height: 46px;
+margin-bottom: 25px;
+    }
+    .We-Are-3Insys p{
+        font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+    }
+    .We-Are-3Insys hr{
+        margin: 35px auto;
+        width: 70%;
+    }
+    .our-vision h4{
+        font-weight: bold;
+font-size: 30px;
+line-height: 46px;
+margin-bottom: 30px;
+    }
+    .our-vision-card {
+        background: #EDF3FC;
+        border-radius: 28px;
+        padding: 40px 25px;
+        text-align: center;
+        height: 480px;
+        margin-bottom: 30px;
+    }
+    .Building-Blocks-content{
+        margin-top: 50px;
+    }
+    .Building-Blocks p{
+        font-size: 16px;
+line-height: 24px;
+    }
+    .our-team h4 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 27px;
+        margin-bottom: 70px;
+    }
+    .our-team {
+        padding: 45px 0 200px;
+        background: #F6F8FE;
+    }
+    .open-modal p {
+        font-weight: bold;
+        font-size: 18px;
+line-height: 27px;
+    }
+    .open-modal{
+        margin-bottom: 50px;
+    }
+    .bg-element-3::after {
+       display: none;
+    }
+    .Ecosystem-Partner-Environment h3 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+    .contact-header-content {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .contact-header-right img{
+        margin-bottom: 40px;
+    }
+    .contact-header-left h1 {
+        font-weight: bold !important;
+        font-size: 30px !important;
+        line-height: 36px !important;
+    }
+    .contact-header-left {
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    .contact-form .btn-1{
+        margin-top: -20px;
     }
 }
 
