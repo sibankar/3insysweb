@@ -2143,6 +2143,7 @@ line-height: 24px;
     margin-bottom: 50px;
 
 }
+
 .xdi-text-image{
     margin-bottom: 50px;
 }
@@ -2157,4 +2158,7 @@ line-height: 24px;
 }
 .our-vision h4{
     margin-bottom: 50px;
+}
+.slider-nav{
+    display:none;
 }

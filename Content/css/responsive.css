@@ -376,16 +376,19 @@
     }
 
 
-    .overflow-feature{
+    .overflow-feature {
         display: -webkit-box;
-        width: 100%;
+        width: initial;
         overflow: auto;
-        -ms-overflow-style: none;  /* Internet Explorer 10+ */
-        scrollbar-width: none;  /* Firefox */
+        -ms-overflow-style: none;
+        scrollbar-width: none;
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-        margin-right: -15px;
-        margin-left: -15px;
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+    .overflow-feature .w-90{
+        width: 90%;
     }
 
     .overflow-feature::-webkit-scrollbar { 
@@ -991,7 +994,8 @@ line-height: 24px;
         position: relative;
         top: -13px;
         margin: 0 20px;
-        left: 46px;
+        left: auto;
+        z-index: 2;
     }
     .navigation::after {
         position: absolute;
@@ -1001,14 +1005,19 @@ line-height: 24px;
         width: 320px;
         /* margin-left: 15px; */
         top: 0;
-        right: 8%;
-        z-index: -1;
+        right: 50%;
+        z-index: 1;
+        transform: translateX(50%);
+    
     }
     .navigation{
         display: flex;
-        position: relative;
-    top: -420px;
+        position: absolute;
+    right: 50%;
+    transform: translateX(50%);
     }
+  
+    
     .baler-anchor{
         display: none;
         position: absolute;
@@ -1125,6 +1134,36 @@ line-height: 27px;
     .contact-form .btn-1{
         margin-top: -20px;
     }
+
+    /*card slider*/
+    .slider-nav{
+        display:block;
+    }
+    .slider-dots {
+        list-style: none;
+        display: inline-block;
+        padding-left: 0;
+        margin-bottom: 0;
+      }
+      
+      .slider-dots li {
+       
+        
+        display: inline;
+        
+        margin-right: 5px;
+
+       
+        animation-duration: 50ms;
+        
+
+      }
+      .slider-dots li a{ color: #C4C4C4;font-size: 30px;}
+      
+      .slider-dots li.active-dot a{
+        color: #437FEC;
+      }
+     
 }
 
 /*special cases for tablet*/
