@@ -183,7 +183,7 @@
         </div>
         <div class="row OT-and-IT">
             <div class="col-12 ot-it-mobile text-center-mob">
-               <a href=""><img src="content/images/xsi/OT-and-IT-illustration.svg" alt="" class="img-fluid"></a> 
+               <a  data-toggle="modal" data-target="#exampleModal"><img src="content/images/xsi/OT-and-IT-illustration.svg" alt="" class="img-fluid"></a> 
                 <p>(Tap to see larger image)</p>
             </div>
             <div class="col-lg-4 ot-device">
@@ -581,7 +581,29 @@
 
 
 
+<!--Modal-->
+<!-- Modal -->
+<div class="modal large-image fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close"  aria-label="Close">
 
+          </button>
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <a data-dismiss="modal">
+                <img src="content/images/domimage.png" alt="">
+            </a>
+          
+        </div>
+       
+      </div>
+    </div>
+  </div>
 
 
 
@@ -729,14 +751,6 @@ btns.forEach((el) => el.addEventListener("click", accordion));
 */
 
     </script>
-    <script>
-        var target = jQuery(this);
-        var element = target.attr('href');
-        jQuery("body, html").animate({
-                    scrollTop: jQuery(element).offset().top - 120
-                }, 300);
-
-            
-    </script>
+   
     </body>
     </html>

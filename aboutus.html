@@ -421,14 +421,28 @@
             });
 
             $(document).on("click", function(e) {
-                console.log(e.target);
+               
                 if($(e.target).hasClass('open-modal')) {                    
-                    console.log($(e.target).attr('class'));
+                 
                 } else {                 
-                    console.log($(e.target).attr('class'));
+                   
                     $("#popup-team-div").modal("hide");
+                   
                 }
             });
+
+            $('.member-1').click(function() {
+                $('.open-modal').addClass('about-height');
+             
+            });
+            $('#popup-team-div').click(function() {
+               
+                $('.open-modal').removeClass('about-height');
+               
+               
+            });
+           
+           
 		});
     </script>
    </body>

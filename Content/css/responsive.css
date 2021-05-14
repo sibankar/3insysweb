@@ -86,7 +86,7 @@
             box-shadow: none;
             border: none;
         }
-        img {max-width:100%}
+      
         .header-area {
             background-image: url(../images/Header/header-bg-image1_mobile.png);
             }
@@ -1158,11 +1158,33 @@ line-height: 27px;
         
 
       }
+      .our-team .modal, .our-team .single-team {
+      
+        height:auto;
+    }
+    .team-carousel .owl-nav{
+        display: none;
+    }
+    .popup-team-div  .our-team-inner {
+        background: transparent;
+        padding: 100px 0 50px;
+        
+    }
+    .popup-team-div .our-team-inner .single-team img {
+        width: 175px;
+        margin: auto;
+    }
+    .popup-team-div .our-team-inner  .single-team {
+        margin: auto 30px;
+        padding: 60px 40px;
+    }
+   
       .slider-dots li a{ color: #C4C4C4;font-size: 30px;}
       
       .slider-dots li.active-dot a{
         color: #437FEC;
       }
+
       .application-header {
         padding: 30px 0;
     }
@@ -1344,6 +1366,37 @@ line-height: 46px;
 font-size: 16px;
 line-height: 24px;
 }
+
+      
+      .modal-body img{
+          max-width: 500%;
+      }
+      .modal-open .modal {
+        overflow-x: auto;
+        background: #f8f9fd;
+       
+    }
+    .modal-dialog {
+        max-width: fit-content;
+        margin:  auto;
+    }
+    .modal-header{
+        display: none;
+    }
+     .large-image .modal-content{
+         border: none;
+     }
+     .modal-body {
+        
+        -webkit-box-flex: 1; 
+        -ms-flex: none;
+       flex: none;
+        padding:initial;
+    }
+    .about-height{
+        opacity: 0;
+    }
+
 }
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){
