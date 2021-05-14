@@ -1486,8 +1486,8 @@ padding: 0 10px;
 }
 
 .apply-now-pg h1{
-    line-height: 60px !important;
-    font-weight: 700 !important;
+    line-height: 60px;
+    font-weight: 700;
     margin-bottom: 50px;
 }
 .apply-now-pg form .form-group{
@@ -2161,4 +2161,11 @@ line-height: 24px;
 }
 .slider-nav{
     display:none;
+}
+.application-header .btn-5{
+    float: right;
+    margin-top: 32px;
+}
+.confirm-msg{
+    padding: 100px 0;
 }

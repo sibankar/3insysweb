@@ -1163,9 +1163,188 @@ line-height: 27px;
       .slider-dots li.active-dot a{
         color: #437FEC;
       }
-     
+      .application-header {
+        padding: 30px 0;
+    }
+    .application-header h4 {
+        font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+    }
+    .application-header .btn-5{
+        float: none;
+        margin-top: 32px;
+    }
+    .my-3-mob{
+        margin: 30px 0;
+    }
+    .application-detail {
+        background: #F3F7FD;
+        padding: 40px 0;
+    }
+    .job-description ul li{
+        font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+    }
+    .apply-button {
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .Other-Related-Positions h4 {
+        font-weight: bold;
+font-size: 30px;
+line-height: 46px;
+    }
+    .otherposition-card{
+        margin-bottom: 30px;
+    }
+    .backtoposition {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #0160E7;
+        float: none;
+    }
+    .Other-Related-Positions {
+        padding: 80px 0 45px;
+    }
+    .faq-seclect-tab h1 {
+        font-weight: bold;
+font-size: 32px;
+line-height: 46px;
+    }
+    .faq-seclect-tab {
+        background: #EFF1FE;
+        padding: 10px 0 80px 0;
+    }
+    .faq-seclect-tab .tab-link{
+        margin-bottom: 10px;
+    }
+    .faq-toggle-card {
+        width: 78%;
+        margin: auto;
+    }
+    .faq-tab-content .acc-btn1{
+        font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+padding: 15px 10px 15px 40px;
+    }
+    .acc-btn1:before {
+        content: url(../images/mob-polygon.svg);
+        transition: all 0.3s linear;
+        position: absolute;
+        transform: translateX(-34px);
 }
-
+.acc-content1 p,.acc-content1 ul li {
+    font-size: 16px;
+line-height: 24px;
+}
+.acc-content1 {
+    padding-left: 27px;
+}
+.faq-toggle-card img {
+    width: 45px;
+}
+.acc-btn1.is-open:before {
+    content: url(../images/Polygon-down.svg);
+    transform: rotate(
+90deg
+);
+    position: absolute;
+    transform: translateX(-34px);
+}
+.policy-header h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #343C51;
+}
+.policy-header {
+    padding: 35px 0 0px;
+}
+.policy-header p {
+    margin-top: 12px;
+}
+.policy-detail {
+    padding: 10px 0;
+    background: #F3F7FD;
+    margin-bottom: 50px;
+}
+.policy-description h6 {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.mb-2-mob{
+    margin-bottom: 20px !important;
+}
+.confirm-msg{
+    padding: 40px 0;
+}
+.confirm-msg h1{
+    font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+}
+.confirm-msg h3{
+    font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+}
+.apply-now-pg h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+.apply-now-pg {
+    padding: 30px 0;
+}
+label[for="et_pb_contact_brand_file_request_0"] {
+    width: 60%;
+}
+.select-dropdown__list-item {
+    font-size: 16px;
+    line-height: 28px;
+}
+.select-dropdown__button {
+    font-weight: normal;
+}
+.apply-now-pg form .form-group label {
+   font-weight: bold;
+}
+.career-header-area {
+    background-image: url(../images/career/career-header-bg.svg);
+    background-position: right top;
+    background-size: 100%;
+    margin-bottom: 70px;
+    padding: 0px ;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+}
+.career-header-area h1 {
+    font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+}
+.career-header-area h5 {
+    font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+}
+.open-position h3{
+    font-weight: normal;
+font-size: 32px;
+line-height: 46px;
+}
+.open-position p {
+    font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+}
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){
     .footer .map-mobile {
