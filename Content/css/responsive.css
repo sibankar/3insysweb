@@ -340,7 +340,12 @@
     .xsi-header-area ul{
         margin-bottom: 35px ;
     }
-
+    .owl-carousel .owl-stage-outer {
+        
+      overflow: initial;
+     
+    
+    }
     .desktop-xsi-btn{
         display: none;
     }
@@ -1534,6 +1539,16 @@ line-height: 24px;
 .open-position table tbody th {padding-top: initial;}
 .open-position table tbody td { padding: 0 0 15px 0;}
 
+
+/*XSM  chutyapa*/
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    
+    background-color: #fff;
+}
+
+.tab-cont-mobile{
+    display: none;
+}
 
 }
 /*special cases for tablet*/
