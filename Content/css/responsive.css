@@ -923,9 +923,12 @@ font-size: 16px;
 line-height: 30px;
 padding: 5px 25px;
     }
+    .container{max-width: initial;
+    }
     .XSM-User-Experience .container{
         padding-left: 0;
-        padding-right: 0;
+        /* padding-right: 0; */
+       
     }
     .integraton-bg-banner{
         padding-bottom: 0;

@@ -684,5 +684,16 @@
     <script src="content/js/bootstrap.js"></script>
     <script src="content/js/owl.carousel.js"></script>
     <script src="content/js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            var viewportWidth =  $(window).width();
+            $('.XSM-User-Experience table').css('width', viewportWidth+'px');
+            $(".XSM-User-Experience hr").css({"width": "calc(" + viewportWidth + "px - 2px)"});
+            
+        }) ;
+      
+       
+    </script>
     </body>
     </html>
