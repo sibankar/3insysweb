@@ -320,7 +320,8 @@
         content: '';
         bottom: -29%;
         position: absolute;
-        right: 44%;
+        right: 50%;
+        transform: translateX(50%);
         z-index: 1;
         top: auto;
         background-image: url(../images/xsi/Group430.svg);
@@ -672,7 +673,7 @@
         display: none;
     }
     .key-features-title-mob{
-        font-weight: bold;
+    font-weight: bold;
     font-size: 30px;
     line-height: 45px;
     background-color: #EFF1FE;
@@ -697,8 +698,8 @@
     }
     .acc-btn{
         font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
+        font-size: 18px;
+        line-height: 24px;
     }
     .acc-btn:before {
         content: url(../images/Vector10-mob.svg);
@@ -709,12 +710,12 @@
     .vertical-divider::after {
         content: "";
         position: absolute;
-        width: 3px;
-        height: 24%;
+        width: 75%;
+        height: 3px;
         background: white;
-        top: 44%;
+        top: 50%;
         right: 50%;
-        transform: rotate(90deg);
+        transform: translateX(50%);
     }
     .section-2 {
         padding: 40px 0;
@@ -729,28 +730,28 @@
     }
     .performance-anlytic li{
         font-size: 16px;
-line-height: 18px;
+        line-height: 18px;
     }
     .Advanced-Capabilities h4{
         font-weight: bold;
-font-size: 30px;
-line-height: 45px;
+        font-size: 30px;
+        line-height: 45px;
     }
     .Advanced-Capabilities p {
         font-weight: normal;
-font-size: 16px;
-line-height: 27px;
+        font-size: 16px;
+        line-height: 27px;
     }
     .cross-system-integrator h4 {
         font-weight: bold;
-font-size: 28px;
-line-height: 42px;
-margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 20px;
     }
     .cross-system-integrator .heading-text{
         font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .xdi-header-area {
         background-image: url(../images/XDI/XDI-header-bg.svg);
@@ -774,34 +775,34 @@ line-height: 24px;
     }
     .Importance-of-Integration h3{
         font-weight: bold;
-font-size: 30px;
-line-height: 45px;
+        font-size: 30px;
+        line-height: 45px;
     }
     .Importance-of-Integration {
         padding: 35px 0;
     }
     .important-integration-subtitle{
         font-weight: normal;
-font-size: 16px;
-line-height: 27px;
+        font-size: 16px;
+        line-height: 27px;
     }
     .System-Integration-Made-Easy h5{
         font-weight: normal;
-font-size: 18px;
-line-height: 27px;
+        font-size: 18px;
+        line-height: 27px;
     }
     .System-Integration-Made-Easy {
         margin-bottom: 20px;
     }
     .dm-title{
         font-weight: bold;
-font-size: 28px;
-line-height: 51px;
+        font-size: 28px;
+        line-height: 51px;
     }
     .performance-anlytic1 li{
         padding-left: 28px;
         font-size: 16px;
-line-height: 24px;
+        line-height: 24px;
     }
     .Centralized-card{
         width: 250px;
@@ -809,23 +810,23 @@ line-height: 24px;
     }
     .Centralized-card p{
         font-size: 18px;
-line-height: 27px;
+        line-height: 27px;
     }
     .Centralized-Data-Storage h4{
         font-weight: bold;
-font-size: 30px;
-line-height: 80px;
+        font-size: 30px;
+        line-height: 80px;
     }
     .semi-title{
         font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 25px;
     }
     .para1{
         font-size: 16px;
-line-height: 24px;
-text-align: left;
+        line-height: 24px;
+        text-align: left;
     }
     .Centralized-Data-Storage {
         padding: 30px 0;
@@ -840,8 +841,8 @@ text-align: left;
     }
     .cross-system-content-card h3{
         font-weight: bold;
-font-size: 16px;
-line-height: 24px;
+        font-size: 16px;
+        line-height: 24px;
     }
     .cross-system-content-card p{
         font-size: 14px;
@@ -930,6 +931,7 @@ padding: 5px 25px;
         /* padding-right: 0; */
        
     }
+   
     .integraton-bg-banner{
         padding-bottom: 0;
     }
