@@ -1550,6 +1550,8 @@ line-height: 24px;
     display: none;
 }
 
+    /*Navbar dropdown issue*/
+  
 }
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){

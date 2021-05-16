@@ -2173,3 +2173,14 @@ line-height: 24px;
 .choose-mob-car{
     display: none;
 }
+
+
+.nav-item .dropdown-menu.show  .dropdown-item:active {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+.nav-item .dropdown-menu.show  .dropdown-item:focus-visible {
+  outline: none;
+}

@@ -715,21 +715,35 @@
 
         $("#item-1").on("click", function(){
             $('#home').toggle();
+            $('#messages').hide();
+            $('#profile').hide();
+            $('#settings').hide();
+            
+            
            
            
         });
         $("#item-2").on("click", function(){
             $('#profile').toggle();
+            $('#home').hide();
+            $('#messages').hide();
+            $('#settings').hide();
            
            
         });
         $("#item-3").on("click", function(){
             $('#messages').toggle();
+            $('#home').hide();
+            $('#profile').hide();
+            $('#settings').hide();
            
            
         });
         $("#item-4").on("click", function(){
             $('#settings').toggle();
+            $('#home').hide();
+            $('#profile').hide();
+            $('#messages').hide();
            
            
         });
