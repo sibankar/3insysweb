@@ -15,99 +15,7 @@
     <link rel="stylesheet" href="content/css/style.css">
     <link rel="stylesheet" href="content/css/responsive.css">	
     <Style>
-        /*Styling Selectbox*/
- #open-position .dropdown {
-    width: 100%;
-    display: inline-block;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 0 2px rgb(204 204 204);
-    transition: all .5s ease;
-    position: relative;
-    font-size: 14px;
-    color: #474747;
-    height: 100%;
-    text-align: left;
-    background: #F7F9FA;
-    top: -50%;
-    z-index: 1;
-}
-#open-position .choose{
-    z-index: 2;
-    position: relative;
-    font-size: 12px;
-    color: #979797;
-    padding-left: 15px;
-}
-#open-position .dropdown .select span {
-    font-size: 16px;
-    color: #437FEC;
-    line-height: 28px;  
-    padding-left: 5px;
-}
-#open-position .dropdown .select span::after{
-    content: url();
-}
-#open-position .dropdown .select {
-    cursor: pointer;
-    display: block;
-    padding: 10px;
-    position: relative;
-    top: 35%;
 
-}
-#open-position .dropdown .select > i {
-    font-size: 13px;
-    color: #888;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-    float: right;
-    line-height: 20px
-}
-#open-position .dropdown:hover {
-    box-shadow: 0 0 4px rgb(204, 204, 204)
-}
-#open-position .dropdown:active {
-    background-color: #f8f8f8
-}
-#open-position .dropdown.active:hover,
-#open-position .dropdown.active {
-    box-shadow: 0 0 4px rgb(204, 204, 204);
-    border-radius: 2px 2px 0 0;
-    background-color: #f8f8f8
-}
-#open-position .dropdown.active .select > i {
-    transform: rotate(-90deg)
-}
-#open-position .dropdown .dropdown-menu {
-    position: absolute;
-    background-color: #fff;
-    width: 100%;
-    left: 0;
-    margin-top: 1px;
-    box-shadow: 0 1px 2px rgb(204, 204, 204);
-    border-radius: 0 1px 2px 2px;
-    overflow: hidden;
-    display: none;
-    max-height: 144px;
-    overflow-y: auto;
-    z-index: 9
-}
-#open-position .dropdown .dropdown-menu li {
-    padding: 10px;
-    transition: all .2s ease-in-out;
-    cursor: pointer
-} 
-#open-position .dropdown .dropdown-menu {
-    padding: 0;
-    list-style: none
-}
-#open-position .dropdown .dropdown-menu li:hover {
-    background-color: #f2f2f2
-}
-#open-position .dropdown .dropdown-menu li:active {
-    background-color: #e2e2e2
-}
     </Style>
 </head>
 <body>
@@ -193,26 +101,8 @@
     <!-- HEADER end here -->
     <!-- open position start here -->
     <section class="open-position" id="open-position">
-        <div class="container">
-            <div class="row">
-                <div class="container">
-                    <span class="choose">Choose Gender</span>
-                  
-                      <div class="dropdown">
-                        <div class="select">
-                          <span>Select Gender</span>
-                        
-                        </div>
-                        <input type="hidden" name="gender">
-                        <ul class="dropdown-menu">
-                          <li id="male">Male</li>
-                          <li id="female">Female</li>
-                        </ul>
-                      </div>
-                  
-                  <span class="msg"></span>
-                </div>
-            </div>
+        <div class="container ">
+            
             <div class="row mb-5">
                 <div class="col-lg-11 mx-auto text-center">
                     <h3>Open Positions</h3>
@@ -220,15 +110,36 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <table>
-                        <thead>
+                <div class="container choose-mob-car">
+                    <span class="choose">Department</span>
+                  
+                      <div class="dropdown1">
+                        <div class="select">
+                          <span>Select Department</span>
+                        
+                        </div>
+                        <input type="hidden" name="gender">
+                        <ul class="dropdown-menu">
+                          <li id="business">Business Operation  Team</li>
+                          <li id="c_care">Customer Service  Team</li>
+                          <li id="design">Design</li>
+                          <li id="marketing">Marketing</li>
+                          <li id="tech_team">Tech Team</li>
+                         
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" id="business_body">
+                    <table class="career-table">
+                        <thead class="select-career-head">
                             <tr>
-                                <th colspan="2">Business Operation  Team</th>
+                                <th  colspan="2">Business Operation  Team</th>
                                 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
                                 <th><a href="">Manager, Revenue Operations</a> </th>
                                 <td>Los Angeles, CA</td>
@@ -240,15 +151,15 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-12">
-                    <table>
-                        <thead>
+                <div class="col-lg-12" id="ccare_body">
+                    <table class="career-table">
+                        <thead class="select-career-head">
                             <tr>
-                                <th colspan="2">Customer Service  Team</th>
+                                <th  colspan="2">Customer Service  Team</th>
                                 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
                                 <th><a href="">Customer Success Manager</a></th>
                                 <td>Los Angeles, CA</td>
@@ -260,15 +171,15 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-12">
-                    <table>
-                        <thead>
+                <div class="col-lg-12" id="design_body">
+                    <table class="career-table">
+                        <thead class="select-career-head">
                             <tr>
-                                <th colspan="2">Design</th>
+                                <th  colspan="2">Design</th>
                                 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
                                 <th><a href="">UI / UX Designer</a></th>
                                 <td>Los Angeles, CA</td>
@@ -280,15 +191,15 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-12">
-                    <table>
-                        <thead>
+                <div class="col-lg-12" id="market_body">
+                    <table class="career-table">
+                        <thead class="select-career-head">
                             <tr>
-                                <th colspan="2">Marketing</th>
+                                <th  colspan="2">Marketing</th>
                                 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
                                 <th><a href="">Digital Marketing Specialiste</a> </th>
                                 <td>Los Angeles, CA</td>
@@ -300,15 +211,15 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-12">
-                    <table>
-                        <thead>
+                <div class="col-lg-12" id="tech_body">
+                    <table class="career-table">
+                        <thead class="select-career-head">
                             <tr>
-                                <th colspan="2">Tech Team</th>
+                                <th  colspan="2">Tech Team</th>
                                 
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody >
                             <tr>
                                 <th><a href="Enterprise-Application.html">Enterprise Application Integration Engineer</a></th>
                                 <td>Los Angeles, CA</td>
@@ -437,27 +348,80 @@
     <script>
         
 /*Dropdown Menu*/
-$('.dropdown').click(function () {
+$('.dropdown1').click(function () {
         $(this).attr('tabindex', 1).focus();
         $(this).toggleClass('active');
         $(this).find('.dropdown-menu').slideToggle(300);
     });
-    $('.dropdown').focusout(function () {
+    $('.dropdown1').focusout(function () {
         $(this).removeClass('active');
         $(this).find('.dropdown-menu').slideUp(300);
     });
     $('.dropdown1 .dropdown-menu li').click(function () {
-        $(this).parents('.dropdown').find('span').text($(this).text());
-        $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
-    });
-/*End Dropdown Menu*/
+        $(this).parents('.dropdown1').find('span').text($(this).text());
+        $(this).parents('.dropdown1').find('input').attr('value', $(this).attr('id'));
+});
+    </script>
+    <script>
+        $("#business").on("click",function(){
 
+            $("#business_body").show();
+            $("#ccare_body").hide();
+            $("#design_body").hide();
+            $("#market_body").hide();
+            $("#tech_body").hide();
+            
 
-$('.dropdown-menu li').click(function () {
-  var input = '<strong>' + $(this).parents('.dropdown').find('input').val() + '</strong>',
-      msg = '<span class="msg">Hidden input value: ';
-  $('.msg').html(msg + input + '</span>');
-}); 
+           
+
+        });
+
+        $("#c_care").on("click",function(){
+
+            $("#ccare_body").show();
+            $("#business_body").hide();
+            $("#design_body").hide();
+            $("#market_body").hide();
+            $("#tech_body").hide();
+            
+           
+
+        });
+        $("#design").on("click",function(){
+            $("#design_body").show();
+            $("#ccare_body").hide();
+            $("#business_body").hide();
+            $("#market_body").hide();
+            $("#tech_body").hide();
+            
+           
+
+        });
+        $("#marketing").on("click",function(){
+            $("#market_body").show();
+            $("#design_body").hide();
+            $("#ccare_body").hide();
+            $("#business_body").hide();
+            $("#tech_body").hide();
+            
+           
+
+        });
+        $("#tech_team").on("click",function(){
+            
+            $("#tech_body").show();
+            $("#design_body").hide();
+            $("#ccare_body").hide();
+            $("#business_body").hide();
+            $("#market_body").hide();
+            
+            
+           
+
+        });
+        
+        
+        
 
     </script>
     </body>

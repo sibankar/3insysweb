@@ -2170,4 +2170,6 @@ line-height: 24px;
     padding: 100px 0;
 }
 
-
+.choose-mob-car{
+    display: none;
+}
