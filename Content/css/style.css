@@ -2173,6 +2173,7 @@ line-height: 24px;
 .choose-mob-car{
     display: none;
 }
+
 .map-img img{
     max-width: 100%;
 }
@@ -2195,4 +2196,34 @@ line-height: 24px;
 
 .puzz-desk{
     display: block;
+
+}
+
+
+.single-team-mob {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px 8px rgb(0 0 0 / 25%);
+    padding: 60px 48px 40px;
+    height: auto;
+    margin: auto;
+}
+.single-team-mob img{
+    width: 175px;
+    margin-bottom: 50px;
+}
+.single-team-mob h5{
+    font-weight: normal;
+font-size: 22px;
+line-height: 24px;
+}
+.single-team-mob h5 span{
+    color: #437FEC;
+}
+
+.single-team-mob p{
+    color: #979797;;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
 }
