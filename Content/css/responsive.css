@@ -18,15 +18,7 @@
             transform: none;
         }
 
-        .icon-name {
-        
-        font-size: 12px !important;
-        line-height: 26px !important;
-        
-        }
-        .water-icon {
-            margin-bottom: 5px;
-        }
+       
 
 
         .overflow-feature{
@@ -130,18 +122,7 @@
         .btn-web{
             display: none;
         }
-    .pr-5{
-        padding-right: 15px !important;
-    }
-    .text-center-mob{
-        text-align: center !important;
-    }
-    .xsi-img{
-        margin-bottom: 35px;
-    }
-    .pl-5{
-        padding-left: 15px !important;
-    }
+   
     .Integration-Advances {
         background: url(../images/Section3/bg-image_mobile.png);
         background-repeat: no-repeat;
@@ -161,20 +142,14 @@
         font-size: 14px !important;
     line-height: 24px !important;
     }
-    .px-mob-9{
-        padding: 0 90px;
-    }
+   
     .digital-evolution h4 {
         font-size: 26px !important;
         line-height: 39px !important;
     }
 
 
-    .brand-carousel .owl-item img {
-        padding: 0px;
-        height:auto;
-        filter: grayscale();
-    }
+   
     .digital-evolution .partner-header{
         font-weight: normal;
         font-size: 16px !important;
@@ -252,13 +227,11 @@
     
     }
     .xsi-header-area {
-    
-        background-position: top 75% left 100%;
+        background-position: bottom 18% right;
         background-size: 95%;
         margin-bottom: 70px;
         padding: 30px 0 0 0;
         background-repeat: no-repeat;
-
     }
     .xsi-header-area::after {
         content: url(../images/Vector72.svg);
@@ -340,19 +313,20 @@
     .xsi-header-area ul{
         margin-bottom: 35px ;
     }
-    .owl-carousel .owl-stage-outer {
+
+    /* .owl-carousel .owl-stage-outer {
         
       overflow: initial;
      
     
-    }
+    } */
     .desktop-xsi-btn{
         display: none;
     }
 
     .mobile-xsi-btn{
         display: block;
-        margin-top: 35px;
+        margin-top: 50px;
         margin-bottom: 45px;
     }
     .header-area {
@@ -375,6 +349,7 @@
     
     font-size: 12px !important;
     line-height: 26px !important;
+    margin-top:10px;
     
     }
     .water-icon {
@@ -428,9 +403,7 @@
         color: #437FEC !important;
     }
 
-    .navigation-bar .navbar-brand img {
-        width: 85px;
-    }
+   
 
     .navigation-bar .navbar{
         padding:25px 30px 25px 30px !important;
@@ -456,7 +429,8 @@
     }
 
     .integraton-bg .intergration-bg-img img{
-        margin-top:40px;
+        margin:40px auto 0;
+        width: 100%;
     }
     .integraton-bg .header-content h1 {
         text-transform: none;
@@ -536,7 +510,7 @@
        display: none;
    }
    .xsi-img{
-       margin-bottom: 35px;
+       margin: 0  auto 35px;
    }
    .pl-5{
        padding-left: 15px !important;
@@ -561,7 +535,7 @@
     line-height: 24px !important;
     }
     .px-mob-9{
-        padding: 0 90px;
+        padding: 0 15%;
     }
     .digital-evolution h4 {
         font-size: 26px !important;
@@ -638,7 +612,7 @@
     margin-bottom: 20px;
     }
     .system-integration-card h6 {
-        font-weight: bold;
+        font-weight: bold !important;
         font-size: 16px;
         line-height: 27px;
     }
@@ -1185,8 +1159,11 @@ line-height: 27px;
         margin: auto;
     }
     .popup-team-div .our-team-inner  .single-team {
-        margin: auto 30px;
+        margin: 30px;
         padding: 60px 40px;
+    }
+    .single-team img {
+        padding-top: initial; 
     }
    
       .slider-dots li a{ color: #C4C4C4;font-size: 30px;}
@@ -1550,9 +1527,68 @@ line-height: 24px;
     display: none;
 }
 
-    /*Navbar dropdown issue*/
-  
+/*overflow-feature-curve*/
+
+.overflow-feature .xsi-bg::after {
+    position: absolute;
+    content: "";
+    background: url(../images/Integration-page/Section1/arrow2.svg) no-repeat;
+    width: 300%;
+    height: 250px;
+    background-size: contain;
+    left: 0;
+    bottom: 25%;
+    background-position: bottom left;
+    z-index: -1;
 }
+.Integrated-Products {content: none; background: none;}
+
+    /*Navbar dropdown issue*/
+
+
+    /*backgrounds products*/
+    #XSI::after, #XDI::after, #XSM::after{
+    content: "";
+    background: url(../images/Section2/Section-2-bg-image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 500px;
+    z-index: -1;
+    background-size: cover;
+    background-position: bottom center;
+    transform: translateY(45%);
+}
+   .btn-mob{
+       display: inline-block;
+   }
+
+   .Integrated-Products .mobile-align{
+       display: inline-grid;
+       display: -ms-inline-grid;
+       display: -moz-inline-grid;
+    }
+
+   .Integrated-Products .mobile-align .btn-mob { 
+    width: max-content;
+    margin: auto;
+    }
+
+    .puzz-mob{
+        display: block;
+    }
+    
+    .puzz-desk{
+        display: none;
+    }
+    .XSM-User-Experience {
+        padding: initial; 
+    }
+    .cross-system-integrator {
+      padding:0 0 50px; 
+    }
+}   
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){
     .footer .map-mobile {

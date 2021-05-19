@@ -2173,7 +2173,9 @@ line-height: 24px;
 .choose-mob-car{
     display: none;
 }
-
+.map-img img{
+    max-width: 100%;
+}
 
 .nav-item .dropdown-menu.show  .dropdown-item:active {
     color: #16181b;
@@ -2183,4 +2185,14 @@ line-height: 24px;
 
 .nav-item .dropdown-menu.show  .dropdown-item:focus-visible {
   outline: none;
+}
+
+
+/*puzzle*/
+.puzz-mob{
+    display: none;
+}
+
+.puzz-desk{
+    display: block;
 }
