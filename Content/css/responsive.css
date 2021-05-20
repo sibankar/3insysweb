@@ -701,7 +701,7 @@
         width: 75%;
         height: 3px;
         background: white;
-        top: 50%;
+        top: 56%;
         right: 50%;
         transform: translateX(50%);
     }
@@ -1088,7 +1088,7 @@ line-height: 24px;
         margin-bottom: 70px;
     }
     .our-team {
-        padding: 45px 0 200px;
+        padding: 45px 0 60px;
         background: #F6F8FE;
     }
     .open-modal p {
@@ -1126,7 +1126,11 @@ line-height: 27px;
     }
     .contact-form .btn-1{
         margin-top: -20px;
+font-size: 14px;
+line-height: 17px;
+padding: 10px 50px;
     }
+
 
     /*card slider*/
     .slider-nav{
@@ -1661,6 +1665,16 @@ line-height: 24px;
     }
     .my-5-mob{
         margin-bottom: 0 !important;
+    }
+    .Intelligent-Preparation{
+        width: 115%;
+        transform: translateX(-10px);
+    }
+    .mb-7-mob{
+        margin-bottom: 70px;
+    }
+    .baler-accordian-right-content img {
+        width: 100%;
     }
 }   
 /*special cases for tablet*/

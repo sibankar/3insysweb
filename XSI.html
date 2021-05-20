@@ -359,9 +359,13 @@
             <div class="row" id="ot_dvice">
                 <hr class="my-5">
                 <div class="key-features-title">OT Device Integration - Key Features</div>
-                <div class="col-12">
+                <div class="col-12 d-none-mob">
                     <img src="content/images/xsi/OT-aniamtion.gif" alt="" class="img-fluid">
                 </div>
+                <div class="col-12 text-center-mob d-none-web">
+                    <a data-toggle="modal" data-target="#exampleModal2"><img src="content/images/xsi/OT-aniamtion.gif" alt="" class="img-fluid"></a> 
+                     <p>(Tap to see larger image)</p>
+                 </div>
             </div>
         </div>
     </section>
@@ -532,18 +536,30 @@
                                 <p> Utility specific connectors make Integration of applications  plug- and - play</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-6"> <div class="cross-system-content-card">
+                        <div class="col-lg-6 col-6">
+                             <div class="cross-system-content-card d-none-mob">
                                 <img src="Content/images/xsi/Process-Automation.svg" >
                                 <h3>Process Automation</h3>
                                 <p>  leverages advancements inrobotics toautomate business processes without complexity   </p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row mt-5 text-center vertical-divider">
-                        <div class="col-lg-6 col-6"> <div class="cross-system-content-card">
+                            <div class="cross-system-content-card d-none-web">
                                 <img src="Content/images/xsi/Intelligent-Analytics.svg" >
                                 <h3>Intelligent Analytics</h3>
                                 <p> Manages data flows which simplifies identifying patterens and trends  </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 text-center vertical-divider">
+                        <div class="col-lg-6 col-6"> 
+                            <div class="cross-system-content-card d-none-mob">
+                                <img src="Content/images/xsi/Intelligent-Analytics.svg" >
+                                <h3>Intelligent Analytics</h3>
+                                <p> Manages data flows which simplifies identifying patterens and trends  </p>
+                            </div>
+                            <div class="cross-system-content-card d-none-web">
+                                <img src="Content/images/xsi/Process-Automation.svg" >
+                                <h3>Process Automation</h3>
+                                <p>  leverages advancements inrobotics toautomate business processes without complexity   </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-6"> <div class="cross-system-content-card">
@@ -556,20 +572,41 @@
                 </div>
             </div>
             <div class="col-lg-4 cross-content-flex-mobile">
+                
                 <div class="cross-security-content-card">
-                    <h3>Cross Security Manager</h3>
-                    <img src="Content/images/xsi/unify-security.svg" >
-                    
-                    <p>Unify Security</p>
-                    <a href="XSM.html" class="btn-3">[XSM]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    <div class="d-none-web">
+                        <h3>  Cross Data Integrator
+                        </h3>
+                        <img src="Content/images/xsi/Centralize-Storage.svg" >
+                        
+                        <p>Centralize Storage</p>
+                        <a href="XDI.html" class="btn-3">[XDI]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    </div>
+                    <div class="d-none-mob">
+                        <h3>Cross Security Manager</h3>
+                        <img src="Content/images/xsi/unify-security.svg" >
+                        
+                        <p>Unify Security</p>
+                        <a href="XSM.html" class="btn-3">[XSM]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    </div>
                 </div>
                 <div class="cross-security-content-card">
-                    <h3>  Cross Data Integrator
-                    </h3>
-                    <img src="Content/images/xsi/Centralize-Storage.svg" >
-                    
-                    <p>Centralize Storage</p>
-                    <a href="XDI.html" class="btn-3">[XDI]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    <div class="d-none-mob">
+                        <h3>  Cross Data Integrator
+                        </h3>
+                        <img src="Content/images/xsi/Centralize-Storage.svg" >
+                        
+                        <p>Centralize Storage</p>
+                        <a href="XDI.html" class="btn-3">[XDI]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    </div>
+                    <div class="d-none-web">
+                        <h3>Cross Security Manager</h3>
+                        <img src="Content/images/xsi/unify-security.svg" >
+                        
+                        <p>Unify Security</p>
+                        <a href="XSM.html" class="btn-3">[XSM]<span><img src="content/images/right-arrow.png" alt="" class="img-fluid pl-2"></span></a> 
+                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -603,6 +640,28 @@
         <div class="modal-body">
             <a data-dismiss="modal">
                 <img src="content/images/domimage.png" alt="">
+            </a>
+          
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="modal large-image fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <button type="button" class="close"  aria-label="Close">
+
+          </button>
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <a data-dismiss="modal">
+                <img src="content/images/xsi/OT-aniamtion.gif" alt="">
             </a>
           
         </div>
