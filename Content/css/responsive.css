@@ -707,7 +707,7 @@
     }
     .section-2 {
         padding: 40px 0;
-        background: #F8F9FD;
+        background: url(../images/color-bg.svg);
         background-position: top;
         position: relative;
     }
