@@ -2231,3 +2231,6 @@ line-height: 24px;
 .Integration-Advances .btn-3 span img{
     padding-left: 30px;
 }
+.clickable-row{
+    cursor: pointer;
+}

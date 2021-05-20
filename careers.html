@@ -140,11 +140,11 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr>
-                                <th><a href="">Manager, Revenue Operations</a> </th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Manager, Revenue Operations</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
-                            <tr>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
                                 <th><a href="">Manager, Revenue Operations</a></th>
                                 <td>Los Angeles, CA</td>
                             </tr>
@@ -160,12 +160,12 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr>
-                                <th><a href="">Customer Success Manager</a></th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Customer Success Manager</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
-                            <tr>
-                                <th><a href="">Customer  Experience Specialist</a> </th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Customer  Experience Specialist </th>
                                 <td>Remote</td>
                             </tr>
                         </tbody>
@@ -180,12 +180,12 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr>
-                                <th><a href="">UI / UX Designer</a></th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>UI / UX Designer</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
-                            <tr>
-                                <th><a href="">Creative Director</a></th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Creative Director</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
                         </tbody>
@@ -200,12 +200,12 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr>
-                                <th><a href="">Digital Marketing Specialiste</a> </th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Digital Marketing Specialiste</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
-                            <tr>
-                                <th><a href="">Sales Manager</a></th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Sales Manager</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
                         </tbody>
@@ -220,12 +220,12 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr>
-                                <th><a href="Enterprise-Application.html">Enterprise Application Integration Engineer</a></th>
+                            <tr class='clickable-row' data-href='Enterprise-Application.html'>
+                                <th>Enterprise Application Integration Engineer</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
-                            <tr>
-                                <th><a href="Developer-application.html">Senior .Net Full Stack Developer</a></th>
+                            <tr class='clickable-row' data-href='Developer-application.html'>
+                                <th>Senior .Net Full Stack Developer</th>
                                 <td>Los Angeles, CA</td>
                             </tr>
                         </tbody>
@@ -420,7 +420,11 @@ $('.dropdown1').click(function () {
 
         });
         
-        
+        jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
         
 
     </script>
