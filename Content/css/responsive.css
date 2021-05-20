@@ -1024,7 +1024,10 @@ line-height: 24px;
     }
     #answer3 .baler-accordian-right-content, #answer4 .baler-accordian-right-content{margin-top: 130px;}
 
+    .career-banner img{
+        width:75%;
     }
+    
     .baler-anchor-bold{
         display: block !important;
     }
