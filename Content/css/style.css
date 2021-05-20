@@ -99,6 +99,7 @@ font-size: 20px;
 line-height: 24px;
 text-align: center;
 text-decoration-line: underline;
+text-underline-offset: 3px;
 color: #0160E7;
 }
 .btn-2{
@@ -2226,4 +2227,7 @@ line-height: 24px;
     font-size: 18px;
     line-height: 24px;
 
+}
+.Integration-Advances .btn-3 span img{
+    padding-left: 30px;
 }

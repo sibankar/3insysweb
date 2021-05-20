@@ -81,6 +81,9 @@
       
         .header-area {
             background-image: url(../images/Header/header-bg-image1_mobile.png);
+            background-size: 100%;
+            margin-bottom: 70px;
+            background-repeat: no-repeat;
             }
         .header-content h1{
             font-size: 36px !important;
@@ -103,7 +106,8 @@
     line-height: 45px !important;
         }
         .Integrated-Products hr {
-            margin: 25px 0;
+            margin: 25px auto;
+            width: 80%;
         }
         .Integrated-Products h4 {
             font-weight: bold;
@@ -168,15 +172,17 @@
         font-size: 18px !important;
         line-height: 27px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .footer .btn-1{
             padding: 14px 24px;
             text-align: center;
-    }
+            font-size: 14px;
+    line-height: 17px;
+}
+    
     .footer-heading {
         margin-bottom: 80px;
-        margin-top: 70px;
     }
     .footer-item ul li{
         margin-bottom:10px;
@@ -349,7 +355,7 @@
     
     font-size: 12px !important;
     line-height: 26px !important;
-    margin-top:10px;
+    margin-top: -5px;
     
     }
     .water-icon {
@@ -518,7 +524,7 @@
    .Integration-Advances {
     background: url(../images/Section3/bg-image_mobile.png);
     background-repeat: no-repeat;
-    background-size: 100% 150%;
+    background-size: 100% 100%;
     padding: 40px 0;
     background-position: bottom;
 }
@@ -535,7 +541,7 @@
     line-height: 24px !important;
     }
     .px-mob-9{
-        padding: 0 15%;
+        padding: 0 22%;
     }
     .digital-evolution h4 {
         font-size: 26px !important;
@@ -664,12 +670,15 @@
     .bullets4::before {
         position: absolute;
         content: url(../images/bullets.png);
-        transform: translateX(-18px);
+        transform: translateX(-33px);
     }
     .Adapter-Connector ul li{
     font-size: 16px;
     line-height: 24px;
-    }
+    margin-left: 18px;
+    margin-right: 10px;
+}
+    
     .more-it-features-title{
         font-weight: bold;
     font-size: 20px;
@@ -710,6 +719,7 @@
     .performance-anlytic li{
         font-size: 16px;
         line-height: 18px;
+        margin-left: 11px;
     }
     .Advanced-Capabilities h4{
         font-weight: bold;
@@ -808,7 +818,7 @@
         text-align: left;
     }
     .Centralized-Data-Storage {
-        padding: 30px 0;
+        padding: 30px 0 0;
     }
     .card-security .cross-system-heading {
         font-weight: bold;
@@ -899,12 +909,11 @@ line-height: 24px;
     }
     .XSM-User-Experience table tr td {
         font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-padding: 5px 25px;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 5px 25px;
     }
-    .container{max-width: initial;
-    }
+    .container{max-width: initial;}
     .XSM-User-Experience .container{
         padding-left: 0;
         /* padding-right: 0; */
@@ -1547,18 +1556,44 @@ line-height: 24px;
 
 
     /*backgrounds products*/
-    #XSI::after, #XDI::after, #XSM::after{
+    #XSI::after{
     content: "";
-    background: url(../images/Section2/Section-2-bg-image.png);
+    background: url(../images/Section2/Section-2-bg-image-mob.svg);
     background-repeat: no-repeat;
     position: absolute;
     width: 100%;
     left: 0;
     height: 500px;
     z-index: -1;
-    background-size: cover;
+    background-size: 107% 100%;
     background-position: bottom center;
-    transform: translateY(45%);
+    transform: translateY(33%);
+}
+#XDI::after{
+    content: "";
+    background: url(../images/Section2/Section-2-bg-image-mob.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 500px;
+    z-index: -1;
+    background-size: 128% 100%;
+    background-position: bottom center;
+    transform: translateY(34%);
+}
+#XSM::after{
+    content: "";
+    background: url(../images/Section2/Section-2-bg-image-mob.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 500px;
+    z-index: -1;
+    background-size: 116% 100%;
+    background-position: bottom center;
+    transform: translateY(38%);
 }
    .btn-mob{
        display: inline-block;
@@ -1586,12 +1621,46 @@ line-height: 24px;
         padding: initial; 
     }
     .cross-system-integrator {
-      padding:0 0 50px; 
+      padding:40px 0 50px; 
     }
+
 
     .single-team-mob{
         display: none;
-        margin: 30px;
+        margin: 30px;}
+
+    .mb-5-mob{
+        margin-bottom: 25px;
+    }
+    .Integration-Advances .col-lg-3{
+        margin-bottom: 15px;
+    }
+    .Integration-Advances .btn-3 span img{
+        padding-left: 8px;
+        width: 21px;
+    }
+    .w-99{
+        width: 99%;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+    .mb--4{
+        margin-bottom: -40px;
+    }
+    .digital-evolution {
+        padding: 45px 0;
+    }
+    .copyright {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #343C51;
+    }
+    .my-5-mob{
+        margin-bottom: 0 !important;
     }
 }   
 /*special cases for tablet*/
@@ -1612,5 +1681,8 @@ line-height: 24px;
     }
     .d-none-web{
         display: none;
+    }
+    .mb-5-web{
+        margin-bottom: 50px;
     }
 }
