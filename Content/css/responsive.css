@@ -1588,6 +1588,11 @@ line-height: 24px;
     .cross-system-integrator {
       padding:0 0 50px; 
     }
+
+    .single-team-mob{
+        display: none;
+        margin: 30px;
+    }
 }   
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){

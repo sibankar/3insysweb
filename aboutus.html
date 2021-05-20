@@ -163,22 +163,22 @@
             <div class="col-lg-12 text-center">
                 <h4>Meet Our Leadership Team</h4>
             </div>
-            <div class="col-lg-3 open-modal member-1" data-member="0">
+            <div class="col-lg-3 open-modal member-1" data-member="0" id="aras_raini_btn">
                 <img src="content/images/about/aras-round.png" alt="">
                 <p>Aras Raiani</p>
                 <span>CEO</span>
             </div>
-            <div class="col-lg-3 open-modal member-1" data-member="1">
+            <div class="col-lg-3 open-modal member-1" data-member="1" id="allan_rakos_btn">
                 <img src="content/images/about/Allan-round.png" alt="">
                 <p>Allan Rakos</p>
                 <span> EVP</span>
             </div>
-            <div class="col-lg-3 open-modal member-1" data-member="2">
+            <div class="col-lg-3 open-modal member-1" data-member="2" id="shiv_prabhu_btn">
                 <img src="content/images/about/shiv-round.png" alt="">
                 <p>Shiv Prabhu</p>
                 <span>CTO</span>
             </div>
-            <div class="col-lg-3 open-modal member-1" data-member="3">
+            <div class="col-lg-3 open-modal member-1" data-member="3" id="mike_koch_btn">
                 <img src="content/images/about/mike-round.png" alt="">
                 <p>Mike Koch</p>
                 <span>VP</span>
@@ -256,6 +256,63 @@
           </div>
         </div>  
     </div>
+
+    <!--modal mobile-->
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  
+            <div class="single-team-mob" id="aras_raini">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img src="Content/images/about/aras.png" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h5 class="mb-4">Aras Raiani, <span>CEO</span> </h5>
+                            <p> Aras Raiani is responsible for the product technology, innovation, vision, strategy, and leadership of 3Insys.  Aras has assembled high-powered business and technology teams to address critical challenges experienced in the Energy and Utility industries.  He’s successfully delivered leading end-to-end IT products and solutions that empowered interoperability that addressed industry key challenges in the areas of IT-OT integration, system and data integration, centralized data storage, and security.
+                                
+                                Aras is an innovative technology leader with more than 15 years of experience in Utilities, Industry Software Design and Development, Machine Learning, AI-Robotics, and Data Mining.  His leadership and technical aptitude strengths led to his selection to lead the USC Robotics team, NASA’s Ames Research Center, and the SEW Demand Response and AMI / Smart Grid Solutions.  Aras is passionate about developing impactful technology products and scalable SaaS business models.
+                                </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-mob" id="allan_rakos">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img src="Content/images/about/Allan.png" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h5 class="mb-4">Allan Rakos, <span>EVP</span> </h5>
+                            <p>Allan oversees operations, business growth, alliances and strategy development at 3Insys. Prior to joining 3Insys, Allan has held Director, VP and COO positions at Intel Corporation and in the Telecommunication industry where he led and developed industry solutions utilizing a Solution Oriented Architecture model that focuses on the convergence of computing and telecommunications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-mob" id="shiv_prabhu">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img src="Content/images/about/shiv.png" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h5 class="mb-4">Shiv Prabhu, <span>CTO</span> </h5>
+                            <p>With 20 years of experience in enterprise software research, development, Shiv led teams in the development of tools, frameworks and applications for Smart Grid system architecture, databases, APIs, system integration, security and communication protocols for Advanced Metering Infrastructure (AMI), Demand Response Management (DRM) and Home / Building Area Networks (HAN/BAN).
+                                </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single-team-mob" id="mike_koch">
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <img src="Content/images/about/mike.png" alt="">
+                    </div>
+                    <div class="col-lg-8">
+                        <h5 class="mb-4">Mike Koch, <span>VP</span> </h5>
+                            <p> Mike is responsible for Global Sales and Marketing.  Mike’s leadership skill have been honed over the years through creating, marketing, and selling solutions that enabled Smart Grid/Water/Gas/Cities to overcome their business challenges and achieve their visions.  Prior to leading sales and marketing at 3Insys, Mike led the Solution Architecture and Business Development practices for Motorola, developed sales channels for custom software solutions at Kutir Mobility, led eastern U.S. Sales at Mimomax, then spread his entrepreneurial wings and started his own consulting company that helped small businesses increase their marketing and sales. 
+                                </p>
+                    </div>
+                </div>
+            </div>
+       
 </section>
 
 <!--our team end-->
@@ -392,6 +449,7 @@
     <script src="content/js/main.js"></script>
 	<script>
         $(document).ready(function(){
+            if ($(window).width() > 991) {
 			const nexticon='<img class="open-modal" src="content/images/about/next.png">';
 			const previcon='<img class="open-modal" src="content/images/about/prev.png">';
 			$('.team-carousel').owlCarousel({
@@ -424,24 +482,58 @@
                
                 if($(e.target).hasClass('open-modal')) {                    
                  
-                } else {                 
+                }
+                else {                 
                    
                     $("#popup-team-div").modal("hide");
                    
                 }
             });
 
-            $('.member-1').click(function() {
-                $('.open-modal').addClass('about-height');
+
+
+            // $('.member-1').click(function() {
+            //     $('.open-modal').addClass('about-height');
              
+            // });
+            // $('#popup-team-div').click(function() {
+               
+            //     $('.open-modal').removeClass('about-height');
+               
+               
+            // });
+
+          
+            }
+
+
+            if ($(window).width() < 991) {
+            $(".open-modal").click(function(){
+                $(".member-1").hide();
             });
-            $('#popup-team-div').click(function() {
-               
-                $('.open-modal').removeClass('about-height');
-               
-               
+
+            $("#aras_raini_btn").click(function(){
+                $("#aras_raini").show();
             });
-           
+            $("#allan_rakos_btn").click(function(){
+                $("#allan_rakos").show();
+            });
+            $("#shiv_prabhu_btn").click(function(){
+                $("#aras_raini").show();
+            });
+            $("#mike_koch_btn").click(function(){
+                $("#mike_koch").show();
+            });
+
+
+
+            $(".single-team-mob").click(function(){
+                $(this).hide();
+                $(".member-1").show();
+            });
+
+            
+        }
            
 		});
     </script>
