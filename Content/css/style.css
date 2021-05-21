@@ -2229,6 +2229,7 @@ line-height: 24px;
 .clickable-row{
     cursor: pointer;
 }
+
 .bullet-round{
     position: relative;
 }
@@ -2244,4 +2245,8 @@ line-height: 24px;
         border-radius: 50%;
         transform: translateY(11px);
         left: 1px;
+}
+#design_body{
+    z-index: 2222222;
+
 }
