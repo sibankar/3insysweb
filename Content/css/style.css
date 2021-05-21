@@ -2234,3 +2234,6 @@ line-height: 24px;
 .clickable-row{
     cursor: pointer;
 }
+#design_body{
+    z-index: 2222222;
+}
