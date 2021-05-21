@@ -1711,4 +1711,14 @@ line-height: 24px;
     .mb-5-web{
         margin-bottom: 50px;
     }
+    
+    .single-team-mob{
+        display: none;
+        margin: 30px;}
+}
+@media (min-width:992px) and (max-width:1199px){
+    
+.Centralized-card {
+    height: 480px;
+}
 }

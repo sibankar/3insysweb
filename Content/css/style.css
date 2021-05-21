@@ -1970,6 +1970,7 @@ color: #343C51 !important;
     background-size: 12%;
     left: 0;
     bottom: 5%;
+    z-index: -1;
    
 }
 
@@ -2189,12 +2190,6 @@ line-height: 24px;
   outline: none;
 }
 
-
-/*puzzle*/
-.puzz-mob{
-    display: none;
-}
-
 .puzz-desk{
     display: block;
 
@@ -2233,4 +2228,20 @@ line-height: 24px;
 }
 .clickable-row{
     cursor: pointer;
+}
+.bullet-round{
+    position: relative;
+}
+.bullet-round li{
+    padding-left: 18px;
+}
+.bullet-round li::before{
+        content:"";
+        position: absolute;
+        height: 4.5px;
+        width:4.5px;
+        background-color: #343C51;
+        border-radius: 50%;
+        transform: translateY(11px);
+        left: 1px;
 }
