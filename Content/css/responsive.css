@@ -844,7 +844,7 @@ line-height: 21px;
     }
     .Intelligent-Preparation{
         padding-right: 6px !important;
-    padding-left: 0px !important;
+        padding-left: 0px !important;
     }
     .card-security {
         background: #EFF1FE;
@@ -858,7 +858,8 @@ line-height: 24px;
     }
     .cross-security-content-card p {
         color: #979797;
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 21px;
         margin: 20px 0 5px;
     }
     .xsm-section-1{
@@ -1721,4 +1722,18 @@ line-height: 24px;
 .Centralized-card {
     height: 480px;
 }
+}
+@media (max-width:375px){
+    .Centralized-Data-Storage h4 {
+        
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .our-team h4 {
+       
+        line-height: 35px;
+    }
+    label[for="et_pb_contact_brand_file_request_0"] {
+        width: 100%;
+    }
 }
