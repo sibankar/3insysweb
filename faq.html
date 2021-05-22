@@ -79,12 +79,12 @@
 
                         
                             <div class="row tabs">
-                                <div class="col-md-4 mt-md-4"><div class="tab-link current" data-tab="tab-1"><div class="faq-toggle-card"><img src="content/images/faq/XSI-logo.svg"><a>Cross System Integrator</a></div></div></div>
-                                <div class="col-md-4 mt-md-4"><div class="tab-link" data-tab="tab-2"><div class="faq-toggle-card"><img src="content/images/faq/XDI-logo.svg"><a>Cross Data Integrator</a></div></div></div>
-                                <div class="col-md-4 mt-md-4"><div class="tab-link" data-tab="tab-3"><div class="faq-toggle-card"><img src="content/images/faq/XSM-logo.svg"><a>Cross Security Manager</a></div></div></div>
-                                <div class="col-md-4 mt-md-4"><div class="tab-link" data-tab="tab-4"><div class="faq-toggle-card"><img src="content/images/faq/integration-suite-logo.svg"><a>Cross Integration Suite</a></div></div></div>
-                                <div class="col-md-4 mt-md-4"><div class="tab-link" data-tab="tab-5"><div class="faq-toggle-card"><img src="content/images/faq/career-icon.svg"><a>Career</a></div></div></div>
-                                <div class="col-md-4 mt-md-4"><div class="tab-link" data-tab="tab-6"><div class="faq-toggle-card"><img src="content/images/faq/general-icon.svg"><a>General</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link current" data-tab="tab-1" href="#tab-1"><div class="faq-toggle-card"><img src="content/images/faq/XSI-logo.svg"><a>Cross System Integrator</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link" data-tab="tab-2" href="#tab-2"><div class="faq-toggle-card"><img src="content/images/faq/XDI-logo.svg"><a>Cross Data Integrator</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link" data-tab="tab-3" href="#tab-3"><div class="faq-toggle-card"><img src="content/images/faq/XSM-logo.svg"><a>Cross Security Manager</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link" data-tab="tab-4" href="#tab-4"><div class="faq-toggle-card"><img src="content/images/faq/integration-suite-logo.svg"><a>Cross Integration Suite</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link" data-tab="tab-5" href="#tab-5"><div class="faq-toggle-card"><img src="content/images/faq/career-icon.svg"><a>Career</a></div></div></div>
+                                <div class="col-lg-4 mt-lg-4"><div class="tab-link" data-tab="tab-6" href="#tab-6"><div class="faq-toggle-card"><img src="content/images/faq/general-icon.svg"><a>General</a></div></div></div>
                             </div>
                         
                        
@@ -419,6 +419,11 @@ $(document).ready(function(){
 
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
+
+    var href = $(this).attr('href');
+        $('html, body').animate({
+          scrollTop: $(href).offset().top -150
+        }, 'slow');
 	})
 
 })
@@ -450,11 +455,13 @@ $(document).ready(function(){
             https://www.magicpattern.design/tools/css-backgrounds
        
     */
-    
+      // $('.tabs .tab-link').on('click', function(e) {
+      //   var href = $(this).attr('href');
+      //   $('html, body').animate({
+      //     scrollTop: $(href).offset().top -150
+      //   }, 'slow');
+      // });
         </script>
-    <style>
-     
-       
-    </style>
+    
     </body>
     </html>
