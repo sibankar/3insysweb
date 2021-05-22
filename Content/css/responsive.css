@@ -1689,6 +1689,12 @@ line-height: 24px;
     .baler-accordian-right-content img {
         width: 100%;
     }
+    .pt-18-mob{
+        padding-top: 18px !important;
+    }
+    .pb-18-mob{
+        padding-bottom: 18px !important;
+    }
 }   
 /*special cases for tablet*/
 @media (min-width:768px) and (max-width: 991px){
@@ -1716,6 +1722,18 @@ line-height: 24px;
     .single-team-mob{
         display: none;
         margin: 30px;}
+        .flow-curve1::after {
+            position: absolute;
+            content: "";
+            background: url(../images/Integration-page/Section1/arrow2.svg) no-repeat;
+            width: 105%;
+            height: 400px;
+            background-size: 75%;
+            left: -5%;
+            bottom: 0%;
+            background-position: center;
+            z-index: -1;
+        }
 }
 @media (min-width:992px) and (max-width:1199px){
     
@@ -1736,4 +1754,16 @@ line-height: 24px;
     label[for="et_pb_contact_brand_file_request_0"] {
         width: 100%;
     }
+    .faq-toggle-card {
+        width: 100%;
+    }
+    .faq-seclect-tab .faq-toggle-card {
+        padding: 15px 7px;
+    }
+  
+}
+@media (max-width:425px){
+    .XSM-User-Experience table tr td {
+        line-height: 24px;
+     }
 }
