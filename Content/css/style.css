@@ -2253,3 +2253,6 @@ line-height: 24px;
 .system-data{
     position: relative;
 }
+.mb-5-mob{
+    margin-bottom: 50px;
+}

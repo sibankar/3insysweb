@@ -608,7 +608,7 @@
         width: 90%;
         margin: auto;
         margin-bottom: 50px;
-        margin-top: 30px;
+        margin-top: 10px;
         z-index: 2;
     }
     .system-integration-card p {
@@ -643,7 +643,7 @@
         display: none;
     }
     .ot-it-mobile{
-    margin-bottom: 250px;
+    margin-bottom: 170px;
     }
     .ot-it-mobile img{
         margin-bottom: 20px; 
@@ -746,6 +746,7 @@
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
+        margin-bottom: 25px;
     }
     .xdi-header-area {
         background-image: url(../images/XDI/XDI-header-bg.svg);
@@ -892,7 +893,7 @@ line-height: 24px;
         height: 115px;
         text-align: left;
         padding: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .Key-card-title{
         font-weight: bold;
@@ -904,6 +905,7 @@ line-height: 28px;
         font-size: 24px;
         line-height: 28px;
         padding: 30px 30px 0;
+        margin-top: 50px;
     }
     .xsm-table-heading{
         font-size: 14px;
@@ -944,6 +946,7 @@ line-height: 24px;
     }
     .importance-integration {
         padding-top: 30px !important;
+        padding-bottom: 30px !important;
     }
     .importance-integration::after {
         display: none;
@@ -980,7 +983,7 @@ line-height: 24px;
 line-height: 24px;
     }
     .devops {
-        padding: 50px 0;
+        padding: 20px 0 50px;
     }
     .question1, .question2, .question3, .question4 {
         border: none;
@@ -1026,9 +1029,12 @@ line-height: 24px;
     #answer3 .baler-accordian-right-content, #answer4 .baler-accordian-right-content{margin-top: 130px;}
 
     .career-banner img{
-        width:75%;
+        width: 90%;
+    transform: translateX(-50px);
     }
-    
+    .career-content{
+        margin-top: 40px;
+    }
     .baler-anchor-bold{
         display: block !important;
     }
@@ -1694,6 +1700,12 @@ line-height: 24px;
     }
     .pb-18-mob{
         padding-bottom: 18px !important;
+    }
+    .important-integration-title, .cross-system-subtitle, .important-integration-subtitle {
+      margin-bottom: 25px;
+    }
+    .overflow-feature{
+        padding: 45px 0 35px;
     }
 }   
 /*special cases for tablet*/
